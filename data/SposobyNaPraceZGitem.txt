@@ -1,0 +1,352 @@
+﻿Git jest git – to oklepany suchar. Fakty są jednak takie, że to narzędzie zmieniło branżę IT. Z jego pomocą programistyczna praca może przebiegać sprawniej, bardziej zorganizowanie i… po prostu przyjemniej.
+
+
+Niestety podczas wielu lat swojej działalności niejednokrotnie obserwowałem marnowanie potencjału tego narzędzia. Daleko zresztą szukać nie trzeba – gdy ogłosiłem, że tworzę mój autorski Kurs Gita, pojawiły się komentarze w stylu:
+
+
+Przecież Git to pull, commit i push – o czym tu robić kurs?
+
+
+Albo:
+
+
+Może zrobisz coś bardziej ambitnego niż kurs Gita? Git to na początek 6 komend, które wystarczą do używania przez juniora.
+
+
+Albo:
+
+
+Git, serio? Nauka podstaw zajęła mi jako kompletnemu żółtodziobowi godzinę z YouTube.
+
+
+I z jednej strony: to (prawie) wszystko prawda, ale z drugiej: dużo osób zostaje na wspomnianym poziomie „godzina z YT”. Ignorance is bliss, ale tylko czasami. Przez to marnujemy Massive opportunities.
+
+
+Czubek góry
+Ostatnio robiłem porządki na swoim Dropboksie i znalazłem pewien katalog. Przywołał on wiele wspomnień i… szeroki uśmiech na mym licu:
+
+
+To jeden z projektów realizowanych przeze mnie kilkanaście lat temu. Wtedy nie dość, że niewiele wiedziałem, to jeszcze nie wiedziałem, jak niewiele wiem, a jak wiele nie wiem (BUM, chrząszcz brzmi w trzcinie)!
+
+
+To właśnie ten katalog przyszedł mi do głowy, gdy czytałem przytoczone komentarze. Niestety – cały geniusz, inżynierski kunszt i ogromny potencjał stojące za Gitem (w szczególności, a za koncepcją kontroli wersji w ogóle) są sprowadzane często właśnie do tego: Prostej Metody Na Robienie ZIP-ów (albo – jak na screenie – RAR-ów).
+
+
+A to tylko czubek góry lodowej! Wielkiej, pięknej góry kryjącej się w zero-jedynkowym oceanie zajebistości. Czytaj dalej, jeśli chcesz choć trochę się zanurzyć.
+
+
+BTW, właśnie teraz – do końca tygodnia – możesz dołączyć do wspomnianego Kursu Gita! Chodź na kursgita.pl i zobacz co dla Ciebie przygotowałem :).
+
+
+A teraz zapraszam Cię do poznania pięciu sposobów na to, by Twoja przygoda z Gitem (a właściwie z dowolnym systemem kontroli wersji) nabrała rumieńców.
+
+
+LET’S GO!
+
+
+1. Decentralizacja – opcjonalne wymaganie
+(czyli oksymoronik na dobry początek)
+
+
+Pierwszym niezbędnym krokiem w stronę światła ;) jest decentralizacja. Ta porada nie dotyczy Gita per se: niestety scentralizowane systemy kontroli wersji – chociażby SVN – są nadal dość popularne i wykorzystywane na co dzień w wielu firmach.
+
+
+Oprócz oczywistych wad (powolne działanie, brak efektywnej pracy offline itd.) niosą one również ukryte niebezpieczeństwo: zachęcają do korzystania z repozytorium kodu jak z głupiego serwera FTP, do którego byle jak i byle kiedy dokleja się kolejne archiwa z datą utworzenia. Zupełnie jak na pokazanym wyżej obrazku. FUJ!
+
+
+A przecież starannie budowana historia projektu to zdecydowanie coś więcej!
+
+
+(No dobra, można się spierać, czy one faktycznie do tego zachęcają, ale umówmy się: przynajmniej nie zachęcają do innych praktyk).
+
+
+Programistę Haskella poznasz po tym, że przed powiedzeniem „cześć” poinformuje: „programuję w Haskellu”. A po czym poznasz programistę skazanego na SVN-a czy TFS-a? Tacy powiedzą:
+
+
+Ja to wysyłam jeden commit dziennie: przed wyjściem z pracy do domu.
+
+
+Albo:
+
+
+Commituję kod po zaimplementowaniu całego ficzera, nawet jeśli zajęło mi to kilka dni.
+
+
+W efekcie powstaje „śmietnik historii”, podczas gdy niewielkim nakładem pracy możemy znaleźć się w o wiele przyjemniejszym miejscu.
+
+
+Decentralizuj choćby we własnym zakresie.
+
+
+W kontekście tego tekstu zajmujemy się głównie Gitem. A co, jeśli Twój zespół nie używa Gita? Na szczęście nie oznacza to wcale, że Ty nie możesz! Zrzuć ohydne jarzmo scentralizowanego systemu kontroli wersji: rączki skalane SVN-em wspaniale odkazi git-svn. W razie potrzeby zerknij na git-tfs. One naprawdę dają radę!
+
+
+A co dalej?
+
+
+2. Single Responsibility Principle – does that ring a bell?
+Sztuka tworzenia oprogramowania otoczona jest baaardzo wieloma złotymi zasadami. Ich przestrzeganie nie gwarantuje co prawda sukcesu, lecz może znacznie poprawić jakość efektów naszej pracy. Chociażby: SOLID!
+
+
+Odpowiednio pracując nad codziennymi praktykami – nie tylko na poziomie kodu – możemy pozytywnie wpłynąć na kształt projektu. Tak pozornie banalna sprawa jak przemyślany sposób commitowania kodu drastycznie zwiększy komfort pracy nad systemem!
+
+
+Pierwsza zasada SOLID to Single Responsibility Principle. SRP radzi, by każda klasa w systemie miała tylko jeden powód do zmiany. Albo inaczej: by każda klasa w systemie miała tylko jedną, ściśle określoną odpowiedzialność.
+
+
+No i co z tego? Po co o tym piszę?
+
+
+Otóż warto postępować wedle tych zaleceń nie tylko przy programowaniu! Równie dobrze sprawdzą się one w przypadku konstruowania commitów. Niech każdy z nich będzie skoncentrowany na rozwiązaniu jednego, określonego, malutkiego problemu. Tym samym niech nie zawiera niepowiązanych ze sobą bezpośrednio zmian dotykających wielu plików. Tak jak klasa w kodzie nie powinna być odpowiedzialna za wiele czynności, tak samo każdy wpis do systemu kontroli wersji powinien tworzyć logiczną całość.
+
+
+NIECH commity (sic!) będą zgodne z Single Responsibility Principle!
+
+
+Jeśli zmiany zgrupowane w jeden commit będą odnosić się tylko do jednego niewielkiego kroku wykonywanego na drodze do zakończenia implementacji danego zadania, historia projektu stanie się o wiele łatwiejsza do przeglądania. Nie chodzi jednak wyłącznie o przeglądanie historii. W końcu co nas obchodzi, że ktoś gdzieś będzie kiedyś się drapał w głowę, oglądając nasz ubercommit dotykający 500 plików? „Bylebym to nie był ja!” i do przodu!
+
+
+Przybliżmy jednak tę przyszłość: code review. O, to co innego, bo to się może dziać już, teraz i tutaj. Drobne i spójne commity ogromnie usprawniają proces przeglądania i komentowania kodu w zespole. O wiele łatwiej przetrawić i omówić ściśle powiązane ze sobą zmiany w trzech pliczkach niż czytać wielką masę kodu, zastanawiając się: „jak jedno ma się do drugiego?”.
+
+
+Ale zaraz, zaraz – padło słowo „spójność”! Buzzword detected! Warto w tym miejscu wrzucić kolejny termin z inżynierii oprogramowania:
+
+
+Cohesion (za WIKI) – degree to which the elements inside a module belong together.
+
+
+To również – podobnie jak SRP – możemy przenieść do świata kontroli wersji. A potem poklepać się po pleckach i pogratulować samym sobie tak mądrej decyzji.
+
+
+Warto pamiętać, że w Gicie nie budujemy historii plików. W Gicie tworzymy historię STANÓW. Jak to rozumieć? Otóż nawet jeśli jeden plik zawiera wiele zmian, to możemy je rozbić na kilka małych – sensownych – commitów, zamiast pakować wszystkie modyfikacje do jednego! To nic, że zmiany występują w jednym pliku – do niczego nas to nie zobowiązuje. Takie rozwiązanie – do wykorzystania za pomocą komendy git add --patch – daje ogromne możliwości tworzenia SPÓJNYCH commitów, zgodnych z SRP pławiącej się w kohezji. ;)
+
+
+Git add --patch przyda Ci się, gdy podczas normalnej pracy:
+
+
+poprawisz literówkę (osobny, dedykowany commit),
+poprawisz znaki końca linii CR / LF (osobny, dedykowany commit),
+zrobisz mały refactoring, na przykład zmianę nazwy metody (osobny, dedykowany commit),
+zmienisz taby na spacje… albo na odwrót, w zależności od wyznania (osobny, dedykowany commit).
+Tak naprawdę rekomenduję „git add --patch” jako domyślny (albo nawet jedyny!) sposób świadomego dodawania zmian do repozytorium.
+
+
+„U mnie działa™”.
+
+
+3. Commit-Driven Development
+A co, jeśli pójdziemy jeszcze o krok dalej? Nawet siedmiomilowy?
+
+
+Było o SOLID, było o COHESION… Ewidentnie brakuje odniesienia do Test-Driven Development, by móc z czystym sumieniem nałożyć sobie michę jarmużu!
+
+
+W TDD najpierw piszemy testy, a potem kod. A w CDD (Commit Driven Development – nazwa wymyślona, pantent pending)? Najpierw określamy, CO chcemy zrobić, poprzez przygotowanie commit message, a dopiero potem doklejamy do takiej pustej (sic!) wrzutki kolejne kawałki kodu. Aż do momentu, gdy złożona obietnica zostanie spełniona.
+
+
+BTW, warto zauważyć, jak fajnie dwuznacznie wpasowuje się tutaj słowo „commit”, c’nie?
+
+
+Jest to całkowite odwrócenie „normalnego” sposobu commitowania pracy. Zwykle najpierw modyfikujemy kod, a dopiero potem opisujemy (albo i nie…?) wprowadzone zmiany i gdzieś je wysyłamy.
+
+
+Eksperymentalne odwrócenie procesu: najpierw commit, potem praca.
+
+
+Co może dać takie eksperymentalne, świeże spojrzenie na ten proces?
+
+
+Po pierwsze: definiujemy dla samych siebie, co dokładnie mamy osiągnąć w ciągu najbliższych minut/kwadransów. Pewnie Tobie, tak jak i mi, zdarza się na chwilę zawiesić przy pracy, wypaść z flow (o czym więcej za chwilę), zgubić kontekst. Jeśli będziemy mieć gotowe commit message, wystarczy, że zerkniemy na jedną linijkę tekstu (git log -n1) i… I’M BACK IN THE GAME, BABY!
+
+
+Po drugie: skupiamy się na implementacji tej jednej rzeczy, realizacji jednego celu. Nie ma miejsca na nagłe rozproszenie typu „o, literówka w nazwie metody – fixnę od razu”. A potem się okazuje, że ta literówka była z jakiegoś powodu konieczna (bo ktoś w jakimś XML-u też jej użył i po tej zmianie system się wywali). Albo: „o, nieaktualny komentarz”, „o, dwa entery zamiast jednego”. I po godzinie – peszek! – zrobiliśmy masę nie-tego-co-planowaliśmy. W tym trybie dążymy do konkretnego, najlepiej niewielkiego, rezultatu. I tylko do niego.
+
+
+Efektem ubocznym opisywanej praktyki jest piękna historia projektu. Nie znajdziemy modyfikacji kodu procedury składowanej (tfu!) w commicie zmieniającym kolor przycisku na stronie (bo „akurat fajnie byłoby przy okazji w końcu tę procedurę tknąć”). Czyli… wracamy do SRP!
+
+
+Przy tej okazji można zaobserwować ciekawe zjawisko – zupełnie inny typ treści komentarzy do commitów. Całkiem nowa jakość.
+
+
+Nie znajdziemy tam opisu implementacji, ponieważ na etapie pisania tekstu nie będziemy w stanie dokładnie określić, jak ta implementacja przebiegnie. Opisy będą zawierać treści zrozumiałe nawet dla nowego programisty, dołączającego do zespołu za pół roku!
+
+
+„Co się zmieniło w zachowaniu systemu” vs „co narobiliśmy w kodzie”.
+
+
+W Gicie bardzo łatwo można wypróbować taki sposób pracy. Umożliwia to komenda git commit --allow-empty. A jak taki twór uzupełnić? Zmiany dorzucimy za pomocą git commit --amend.
+
+
+Nie twierdzę, że to praktyka rekomendowana zawsze i wszędzie, ale warto dać szansę, szczególnie przy (na początku) prostszych zadaniach.
+
+
+Przy okazji CDD wspomnieliśmy o jednej ważnej praktyce. Nie możemy jej zostawić takiej niedopieszczonej! Zatem…
+
+
+4. Test-Driven Development…
+…i co to ma do kontroli wersji?
+
+
+Akurat bardzo dużo!
+
+
+Na szczęście z tym tematem możemy się uporać niezwykle sprawnie:
+
+
+Ulepszone TDD: red -> green -> refactor -> commit
+
+
+Byłem w szoku, jak bardzo mi tego brakowało, gdy w jednym projekcie musiałem z Gita przestawić się na dosłownie na „czystego” TFS-a. Tam podobna praktyka jest po prostu niemożliwa (bo commity od razu lecą na serwer).
+
+
+Można nawet pójść o krok dalej i zrobić pewne założenie: nie każdy commit musi zawierać poprawny kod (dla dowolnej definicji „poprawności”)!
+
+
+Kod nie musi się kompilować,
+testy nie muszą przechodzić,
+projekt nie musi się otwierać w IDE!
+Commity dokumentują naszą programistyczną drogę. Każdy z nich pokazuje jeden krok: „zakończono pewną czynność”. A nasze kroki, jak wiadomo, nie zawsze lądują na miękkim puchu. Niejednokrotnie nastąpimy na krowi placek. I ten ślad także warto rozsmarować po historii w Gicie.
+
+
+Kolejny krok – dla odważnych:
+
+
+red -> commit -> green -> commit -> refactor -> commit
+
+
+Eksperyment nie boli!
+
+
+„Czy ktoś widział kiedyś za dużo commitów?”
+Można się zastanawiać, czy to nie przesada. Oczadział? Kto to potem będzie czytał?
+
+
+Moim zdaniem to zdecydowanie NIE JEST przesada. Commituj kod CZĘSTO. Nawet: bardzo często! Przyzwyczaj się do sytuacji, w której jeszcze przed lunchem masz zrobionych 30 commitów. 50 commitów dziennie? To norma!
+
+
+Oczywiście dużo zależy od projektu, ale generalnie:
+
+
+Nie ma czegoś takiego jak „za dużo commitów”
+
+
+(albo – jak mówi Abelard Giza – „widział ktoś kiedyś za dużo zajęcy?”. BTW, bardzo polecam).
+
+
+Co to daje? Dzięki temu gdy patrzę w historię projektu, dokładnie widzę:
+
+
+co,
+kiedy,
+(najważniejsze) DLACZEGO
+zrobiłem.
+
+
+A jeśli komuś wyżej nie spodoba się taki styl pracy? Żaden problem – możesz mieć sytego wilka (czyli nieświadomego przełożonego) oraz całą owcę (czyli swoją niezakłóconą niczyim widzimisię produktywność).
+
+
+Należy pamiętać, że 20 commitów lokalnych wcale nie musi przekładać się na 20 commitów wysłanych na serwer! Przed wykonaniem PUSH warto przejrzeć zmiany (git log origin/<branch>..<branch>) i w razie potrzeby scalić niektóre commity. Szczegółowość przydatna przy pracy bieżącej wcale nie musi być konieczna w perspektywie globalnej historii projektu. Wtedy niezastąpiona jest komenda git rebase -i, czyli tzw. interactive rebase.
+
+
+20 commitów lokalnych != 20 commitów wysłanych na serwer.
+
+
+Ale jak stosować powyższe zasady, skoro „robię jeden commit dziennie – przed wyjściem z pracy”? Wyjaśnijmy sobie jedną rzecz: praktyka jednego commita dziennie jest – ujmę to najdelikatniej, jak potrafię – nie najlepsza. Nie stosujmy jej, pliz.
+
+
+Przepiękny Side-Effect
+Poboczną korzyścią z takiego postępowania jest fakt, że przez większość czasu pracujemy na „czystym” kodzie zawierającym bardzo niewiele zmian w stosunku do zapisanego w Gicie stanu. Nawet jeśli coś Cię rozproszy i wybije z tego magicznego programistycznego flow, w ciągu kilku sekund (przeczytanie króciutkiego efektu komendy „git diff”) możesz znaleźć się z powrotem w wirze produktywnego klepania (no dobra, niech będzie: kombinowania).
+
+
+Najlepsze w tym wszystkim: NICZEGO NIE ZEPSUJESZ!
+
+
+Chcesz zawsze, w każdej chwili spędzonej nad projektem, czuć: „nieważne, co zrobię, na pewno niczego nie zepsuję”? To jest – jak to mawiają za oceanem – LIBERATING. Wyzwalające. Uzależniające. To niesamowite uczucie.
+
+
+Niczego nie zepsujesz! Bo w razie fuckupu w każdej chwili możesz cofnąć się do poprawnego kodu sprzed kilku MINUT (a nie GODZIN czy DNI).
+
+
+I na koniec to, o czym już wcześniej napomknęliśmy:
+
+
+5. Treść commit message
+Sama paczka kodu podpisana nazwiskiem autora oraz datą nie jest wystarczająca. Tyle to mamy i w ZIP-ie. Bez pisania sensownych opisów zmian daleko nie zajedziemy.
+
+
+Trzeba tu znaleźć złoty środek. Z jednej strony: należy zawrzeć „odpowiednio wiele” informacji. A z drugiej: nie duplikować treści przechowywanych w narzędziu (i samym kodzie) do zarządzania projektem.
+
+
+Ja zwykle w commit message staram się zawierać takie dane jak typ zadania, jego ID oraz krótki opis zmian (jakie i dlaczego). Jeśli to nie wystarcza, po dwóch enterach rozwodzę się nieco bardziej.
+
+
+Dla Gita istnieją bardziej szczegółowe praktyki (tutaj można zacząć o tym czytać).
+
+
+Zamiast standardowego „dupa” warto rozważyć:
+
+
+dlaczego taka zmiana (niskopoziomowe wyjaśnienia rozumowania, żeby nie zniknęły w otchłani czasu),
+to, co wpisalibyśmy jako komentarz w kodzie (bo te się bardzo szybko rozsynchronizują z rzeczywistością),
+co się faktycznie zmieniło w systemie (niekoniecznie JAK zostało zrealizowane – od tego jest kod).
+Dodatkowo niektóre (prawie wszystkie?) systemy do zarządzania projektem potrafią czytać repozytorium Gita i wyłuskiwać instrukcje z commit messages. Na przykład Redmine zrozumie takie coś i podejmie odpowiednie działania, zmieniając status taska:
+
+
+refs #1234,
+fixes #1234,
+closes:#1234.
+Więcej o Redmine w tym kontekście poczytasz tutaj.
+
+
+Ale to nadal nie wszystko!
+
+
+Sam się zdziwiłem, jak niesamowicie prostsze staje się wypuszczanie kolejnych wersji oprogramowania wraz z release notes. Wiesz dlaczego?
+
+
+Wiesz???
+
+
+…
+<crickets>
+…
+
+
+A lubisz je pisać?
+
+
+„Lubię pisać release notes” said no one ever.
+
+
+Ale przecież przy odpowiednio prowadzonej historii projektu wystarczy wyeksportować log zmian do pliku, usunąć mało znaczące wpisy i… już!
+
+
+Przykład? [bug #2876]clicking on OK button works in IE 6
+
+
+Log z kontroli wersji to Release Notes!
+
+
+Oczywiście nie umieścimy w tym dokumencie – szczególnie publicznym, dostarczanym klientowi lub użytkownikom – wszystkich commitów, całej drogi prowadzącej do udanej implementacji danego ficzera czy poprawienia buga. Ludziska by się zanudzili, a wartość w tym dla nich zerowa.
+
+
+Możemy natomiast podjąć decyzję o spójnym, egzekwowanym przez cały zespół sposobie pracy z Gitem. Takim, w którym treść opisującą kwestie istotne jedynie z punktu widzenia „biznesu” wygeneruje na przykład komenda git log --merges v1..v2.
+
+
+Brzmi ciekawie? O, na pewno! Ale… to już nie na dziś.
+
+
+Podejmiesz rękawicę?
+Wiesz co – to naprawdę robi różnicę. Ogromną.
+
+
+Nie sprowadzajmy Gita do roli durnego generatora paczek. To wspaniałe narzędzie i warto je poznać o wiele głębiej. Ta inwestycja zwróci się szybko, pozytywnie wpływając na pracę nie tylko Twoją, ale także Twojego zespołu!
+
+
+W tym tekście pojawiło się kilka komend Gita i ich ciekawych przełączników. Chcesz więcej? Zapraszam do mojego Kursu Gita!
+
+
+Ponad 3000 osób już przeszło mój kurs i są w szoku, że z tego narzędzia można wycisnąć tak dużo! Dołącz i zaskocz się i Ty! :) Wpadaj na kursgita.pl i zMASTERuj Gita jeszcze w tym tygodniu!
+
+
+A tymczasem… borem gitem.

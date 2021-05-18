@@ -1,0 +1,464 @@
+﻿Chcesz wyciągnąć środki z IKE lub IKZE? Oto jak tego dokonać.
+Ten bardzo techniczny wpis rozpocznę od zniechęcenia Cię do dokonywania przedwczesnego zwrotu środków z Twojego IKE lub IKZE, przypominając Ci, że nie po to to konto zakładałeś. Skoro moralizatorstwo i przekaz mamy już za sobą możemy przejść do treści, w której opiszę Ci 3 sposoby na wypłatę środków z kont IKE i IKZE. Wpis ten piszę niemalże z konieczności, gdyż pytania o zwrot i częściowy zwrot środków z maklerskich (i zwykłych) kont emerytalnych pojawiają się w komentarzach bardzo często i mimo, że absolutnie odradzam dokonywanie podobnych operacji to postanowiłem ten temat poruszyć. Znajdziesz tu instrukcję dotyczącą tego jak wypłacić pieniądze z IKE i IKZE, a więc wszystko na temat wypłaty, zwrotu i częściowego zwrotu środków z tych kont, przy czym ten ostatni możliwy jest jedynie na IKE.
+
+
+Dlaczego tak bardzo odwodzę Cię od pomysłu wypłacania części lub całości środków z kont IKE i IKZE przed spełnieniem warunków emerytalnych? Przede wszystkim pamiętaj, że podejmując decyzję o rozpoczęciu inwestowania przy użyciu tych specjalnych, zwolnionych z podatku Belki kont, powinieneś lokować tam tylko środki, których na pewno nie będziesz potrzebować aż do emerytury. Zauważ, że w warunkach zwolnienia z podatku nie ma ani słowa o wysokości wpłat, gdyż liczy się ich regularność (a w zasadzie liczba wpłat rocznych o dowolnej wartości), a nie wpłacanie „pod limit” w każdym roku kalendarzowym. Z tego powodu zanim zdecydujesz się na przeprowadzenie częściowego zwrotu lub likwidacji jednego lub obydwu kont, przemyśl, czy nie wolisz w przyszłości wpłacać na te konta mniej środków, mimo wszystko kontynuując korzystanie z nich.
+
+
+W skrócie
+Z tego artykułu dowiesz się:
+
+
+W jaki sposób wykonuje się i z czym wiąże się emerytalna wypłata z kont IKE i IKZE (jednorazowa i w ratach).
+W jaki sposób wykonuje się przedterminowy zwrot z kont IKE i IKZE i z czym wiążą się one podatkowo.
+W jaki sposób wykonać przedterminowy częściowy zwrot środków z IKE i jakie ma on konsekwencje podatkowe.
+Powiązane wpisy
+Rachunki maklerskie IKE i IKZE. Jak założyć. Który wybrać?
+Dlaczego akcje pasują do IKE bardziej niż obligacje?
+Portfel emerytalny na Twoje IKE lub IKZE
+Jak przygotować portfel inwestycyjny do emerytury?
+Co zrobić z pieniędzmi z OFE? IKE czy ZUS?
+Jak działa ZUS? Gdzie trafiają Twoje składki?
+Sposoby wypłaty pieniędzy z IKE
+Wróćmy do sedna, czyli do omówienia warunków zwolnienia z podatku Belki. Na nasze szczęście są one bardzo proste i ograniczają się do osiągnięcia pewnego wieku (60 lat dla IKE i 65 lat dla IKZE) i dokonaniu wpłat przez co najmniej 5 różnych lat (nie musi być z rzędu) w okresie prowadzenia takiego konta. Sęk w tym, że nie musisz każdorazowo wpłacać maksymalnej, rocznej kwoty limitu konta, a więc kwota, którą corocznie wpłacisz na IKE i IKZE może być o dowolnej wysokości (zwykle min. 100 zł, ale zależy to od instytucji finansowej, w której prowadzisz konto). Zanim zaczniesz inwestować przez konta IKE i IKZE sugeruję Ci więc gruntownie przeanalizować swoją sytuację finansową, zwłaszcza pod kątem potencjalnej wysokości wpłat, na które będziesz mógł sobie w każdym roku pozwolić. Jeśli już znalazłeś się w kryzysowej sytuacji i koniecznie musisz wypłacić środki z IKE i IKZE lub po prostu osiągnąłeś wiek emerytalny i spełniłeś resztę warunków to na wypłacenie środków z tych kont jest kilka sposobów:
+
+
+Nazwa (wg ustawy)
+
+
+Dotyczy kont
+
+
+Wyjaśnienie
+
+
+Wypłata
+
+
+IKE, IKZE
+
+
+Wypłata zgromadzonych środków po osiągnięciu warunków emerytalnych (60 lat dla IKE, 65 lat dla IKZE + wpłaty przez przynajmniej 5 lat dla obydwu kont). Można ją wykonać jednorazowo lub w ratach.
+
+
+Wypłata transferowa
+
+
+IKE, IKZE
+
+
+Transfer środków z IKE do IKE w innej instytucji lub z IKZE do IKZE w innej instytucji. Przenieść można zarówno środki pieniężne, jak i akcje, obligacje lub ETF-y, ale tylko tak długo jak obydwie instytucje posiadają dane papiery wartościowe w swojej ofercie (może to być więc nieco problematyczne). Możliwe jest też przeniesienie środków z PPE do IKE, ale tylko po wygaśnięciu stosunku o pracę z pracodawcą, który to PPE prowadził. W teorii można też przenieść środki z IKE do PPE, ale nie bardzo rozumiem dlaczego ktoś miałby chcieć to zrobić skoro nad IKE zachowuje się pełną kontrolę, a PPE są prowadzone przez fundusze inwestycyjne.
+
+
+Zwrot
+
+
+IKE, IKZE
+
+
+Zwrot polega na sprzedaniu aktywów, zleceniu wypłaty środków na swoje konto i zamknięciu konta IKE lub IKZE. Kwestie techniczne i podatkowe opiszę na przykładach w dalszej części wpisu, ale różnią się one dla obydwu kont.
+
+
+Częściowy zwrot
+
+
+IKE
+
+
+Częściowy zwrot dotyczy jedynie IKE i polega na sprzedaniu części aktywów na IKE (ograniczonej wysokością wpłat na IKE) i zleceniu wypłaty środków na swoje konto. Kwestie techniczne i podatkowe opiszę na przykładach w dalszej części wpisu.
+
+
+W celu osiągnięcia spójności wpisu z ustawą, od teraz będę stosował pojęcia „wypłata” jedynie do określenia wypłaty emerytalnej, zaś pojęć „zwrot” i „częściowy zwrot” do opisania awaryjnych wypłat przedemerytalnych. W kilku następnych akapitach postaram się prosto wyjaśnić na czym w teorii polega każda z operacji, a rozdział później zaprezentuję te najbardziej złożone na przykładach.
+
+
+Wypłata emerytalna (jednorazowa) z IKE
+Jednorazowa wypłata emerytalna to zdecydowanie najprostszy model wypłaty środków z IKE. Polega na spełnieniu następujących wymagań:
+
+
+(Wymaganie) Ukończony 60 rok życia i wpłaty (dowolnej wysokości) na IKE w co najmniej w 5 dowolnych latach kalendarzowych.
+(Wymaganie alternatywne) Ukończony 60 rok życia i ponad połowa wartości wpłat na IKE co najmniej 5 lat przed dniem złożenia przez oszczędzającego wniosku o dokonanie wypłaty.
+Zarówno IKE, jak i IKZE można prowadzić (kontynuować wpłaty), gdy osiągnie się wiek emerytalny, ale dowolne zlecenie wypłaty (niezależnie czy jednorazowej, czy w ratach) powoduje brak możliwości dalszego dokonywania nowych wpłat na konto. Schemat jednorazowej wypłaty emerytalnej przedstawiłem na diagramie poniżej:
+
+
+Jak wypłacić pieniądze z IKE i IKZE - jednorazowa wypłata emerytalna z IKE
+Sekwencja jednorazowej wypłaty emerytalnej z IKE wygląda następująco:
+
+
+Spełniasz wymagania wypłaty z pominięciem podatku Belki (patrz: „wymaganie” i „wymaganie alternatywne”).
+Sprzedajesz swoje aktywa w całości. Ważne! Nie musisz tego robić w wieku 60 lat, bo z IKE możesz aktywnie korzystać/dokonywać wpłat i inwestować do dowolnego wieku.
+Zlecasz maklerowi wypłatę emerytalną. Ten krok wymaga posiadania na koncie IKE samej gotówki/wolnych środków.
+Makler wypłaca Ci środki i likwiduje Twoje konto IKE. Od teraz nie masz już możliwości założenia nowego IKE.
+Otrzymane środki nie są w żaden sposób opodatkowane, a więc otrzymujesz kwotę brutto, a żaden PIT-8C jej dotyczący nigdy do Ciebie nie przychodzi. Nie rozliczasz nic w PIT-38 i cieszysz się swoimi emerytalnymi środkami z obligacji, akcji i ETF-ów.
+Poza możliwością jednorazowej wypłaty emerytalnej, IKE oferuje również wypłatę ratalną. Sam nie jestem jej zwolennikiem i wg mnie posiada ona więcej wad, niż zalet, ale w celu kompletności wpisu opiszę także proces jej dokonywania. Jeśli interesuje Cię natomiast przygotowywanie portfela inwestycyjnego na emeryturę to serdecznie zachęcam do lektury wpisu „Jak przygotować portfel inwestycyjny do emerytury?„, który świetnie naświetla kwestię alokacji aktywów w okresie przedemerytalnym.
+
+
+Wypłata emerytalna (w ratach) z IKE
+Wypłata z IKE w ratach może mieć swoich zwolenników zwłaszcza wśród osób, które nie mają potrzeby (lub dyscypliny), by dalej oszczędzać, dokonując nowych wpłat już na emeryturze, ale też nie potrzebują całych środków „na teraz”. Wymagania bazowe wypłaty ratalnej są identyczne do tych z przypadku wypłaty jednorazowej, ale sam sposób wypłaty w ratach narzuca pewne ograniczenia, mianowicie:
+
+
+Zlecenie pierwszej wypłaty ratalnej sprawia, że IKE staje się nieaktywne, a więc nie można dokonywać na nie już żadnych wpłat (do końca życia).
+Sposób wypłaty w ratach, a więc ich częstotliwość, liczba i kwota nie jest zdefiniowana w ustawie, a określa ją regulamin usługi IKE, z której korzystasz. Przykładowo: BOSSA oferuje wypłatę miesięczną w następujący sposób:
+Inwestor sam definiuje kwotę miesięcznej „renty”.
+Może on posiadać środki zamrożone w instrumentach finansowych, ale jeśli w dniu wypłaty nie zapewni maklerowi wolnych środków to wypłata zostanie pominięta.
+Oznacza to, że IKE w formie ratalnej warto wypełnić po brzegi akcjami i ETF-ami wypłacającymi dywidendy i pozwolić maklerowi samemu je nam wypłacać.
+Schemat działania wypłaty ratalnej z IKE zamieściłem na poniższym diagramie:
+
+
+Jak wypłacić pieniądze z IKE i IKZE - wypłata emerytalna z IKE w ratach
+Dlaczego wspomniałem wcześniej, że wypłata ratalna z IKE nie jest wg mnie najlepszym pomysłem? Przede wszystkim dlatego, że zlecenie wypłaty pierwszej raty działa analogicznie do zlecenia wypłaty całościowej, odbierając oszczędzającemu możliwość dokonywania dalszych wpłat na konto. Jako, że środki na IKE podlegają dziedziczeniu to potrafię sobie jednak wyobrazić osobę, która trzymając na nim same ETF-y rodzaju distributing zleci wieloletnie raty (dopłatę do emerytury) w celu ewentualnego przekazania majątku z IKE swoim spadkobiercom. Poza zleceniami wypłaty jednorazowej i wypłaty ratalnej istnieje także możliwość dokonania wypłaty transferowej z IKE, którą opiszę skrótowo, bo nie jest „wypłatą” per se.
+
+
+Wypłata transferowa z IKE lub do IKE
+Wypłata transferowa jest ciekawym tematem, który z pewnością opiszę w przyszłości w ramach osobnego wpisu. Zamysłem tego artykułu było przedstawienie wszystkich metod na „wypłatę”, a więc wyciągnięcie swoich środków z IKE/IKZE na zwykłe konto bankowe, ale warto wspomnieć o możliwości transferu środków z IKE do IKE. „Środki” oznaczają zarówno gotówkę, jak i papiery wartościowe, czyli akcje, obligacje lub ETF-y, ale przenieść je można tylko jedynie obydwie instytucje, w tym przypadku biura lub domy maklerskie, oferują handel danymi papierami wartościowymi. Według mojej najlepszej wiedzy, w chwili obecnej istnieje możliwość dokonania następujących transferów środków:
+
+
+Z IKE (posiadacza) na nowe IKE (posiadacza). Oznacza to zamknięcie pierwszego rachunku.
+Z PPE (posiadacza) do IKE (posiadacza). Możliwe tylko przy zerwaniu stosunku pracy z pracodawcą, który prowadził PPE. Transfer z PPE nie wlicza się do limitu wpłat na IKE.
+Z IKE/PPE/PPK (członka rodziny) do IKE (posiadacza) w przypadku, gdy członek rodziny zmarł, a posiadacz był osobą uposażoną lub spadkobiercą.
+Możliwy jest też odwrotny transfer, czyli z IKE do PPE, ale nie za bardzo rozumiem dlaczego ktokolwiek miałby dokonywać podobny ruch:
+
+
+Z IKE (posiadacza) do PPE (posiadacza).
+Dlaczego nie rozumiem sensu powyższego ruchu? PPE związane jest z konkretnym pracodawcą, a w dzisiejszych czasach tych zmienia się dosyć często. PPE prowadzone jest zwykle w ramach (aktywnych) funduszy inwestycyjnych, co na dłuższą metę wychodzi zwykle drożej i mniej opłacalnie niż ETF-y zakupione na IKE. O ile rozumiem sens prowadzenia PPE (gdyż są to w pewnym sensie „darmowe pieniądze” od pracodawcy) to już sensu transferowania środków z IKE do PPE nie rozumiem wcale. Przejdźmy do opisu możliwości całkowitego i częściowego zwrotu środków z IKE, a więc ich awaryjnej wypłaty przedemerytalnej.
+
+
+Pełen zwrot środków z IKE
+W scenariuszu pełnego zwrotu z IKE oszczędzający musi „tu i teraz” wypłacić zgromadzone na koncie środki przed spełnieniem wszystkich warunków emerytalnych. Zwykle oznacza to ich zwrot przed 60 rokiem życia (choć niekoniecznie, patrz: warunki wypłaty) i implikuje konieczność zapłacenia całego zaległego podatku od zysków kapitałowych, czyli podatku Belki. Spoczywa ona jednak na instytucji prowadzącej IKE oszczędzającego, a przykład takiej wypłaty i obliczenie należnego podatku z nią związanego znajdziesz w dalszej części wpisu. Podstawowy scenariusz dla osoby, która decyduje się na zwrot środków z IKE wygląda następująco:
+
+
+Osoba zakłada IKE, prowadzi je X lat, dokonując kolejnych wpłat, ale w pewnym momencie potrzebuje pełnej kwoty i wypłaca środki, likwidując IKE. Co bardzo istotne: pełen zwrot środków z IKE zawsze oznacza zamknięcie takiego konta, ale nie broni osoby przed otworzeniem kolejnego IKE i dokonaniem na nie wpłaty już w kolejnym roku kalendarzowym. Przypadek całkowitej wypłaty z powrotem do oszczędzania na (innym) IKE zamieściłem na diagramie poniżej:
+
+
+Najistotniejszą kwestią przy całkowitym zwrocie i zamknięciu istniejącego IKE jest to, że nic nie stoi na przeszkodzie, by w kolejnym roku kalendarzowym (lub w dalszej przyszłości) założyć kolejne konto IKE. Jest to fakt często opacznie rozumiany przez inwestorów, którzy myślą, że każde zamknięcie IKE powoduje brak możliwości założenia kolejnego. Ów „brak możliwości” dotyczy tylko jakiejkolwiek wypłaty, a więc dokonania wypłaty całościowej lub zlecenia pierwszej raty już po spełnieniu warunków emerytalnych. Bardzo ważne zdanie: brak możliwości założenia kolejnego IKE i/lub dokonywania kolejnych wpłat na istniejące IKE powoduje jakakolwiek wypłata z IKE, która zwolniona jest z podatku Belki (całościowa lub ratalna). Poza możliwością całkowitego zwrotu środków z IKE, oszczędzający ma możliwość dokonania także zwrotu częściowego, ale jest on dosyć problematyczny pod kątem podatków. Opiszę teraz jak częściowy zwrot środków z IKE wygląda w teorii, a w dalszej części dokonam (na przykładzie) obliczeń dotyczących należnego podatku przy wypłacie jedynie części kapitału.
+
+
+Częściowy zwrot środków z IKE
+Częściowy zwrot środków z IKE jest wg mnie zdecydowanie lepszym rozwiązaniem niż zwrot całościowy, a uważam tak głównie dlatego, że nie wymusza zamknięcia konta IKE. Pamiętaj, że zamknięcie IKE wiąże się ze „skasowaniem” Twojego rekordu wpłat, a więc „zeruje” liczbę lat, w których ich dokonywałeś. Głównie (ale nie tylko) z tego powodu jeśli już musisz wypłacić pieniądze z konta IKE to sugeruję zrobić to poprzez wypłatę częściową. W przypadku maklerskiego IKE wygląda ona następująco:
+
+
+(W czasie trwania IKE) Oszczędzający sprzedaje część aktywów i zleca maklerowi częściowy zwrot z IKE. Uwaga! Środki muszą pochodzić z części gotówkowej maklerskiego IKE oraz nie można zlecić częściowego zwrotu w kwocie  wyższej niż dotychczasowa suma wpłat na to konto.
+Makler odciąga należny (wypłacanej części) podatek Belki, resztę środków przekazując na konto bankowe oszczędzającego. Ten krok jest dosyć skomplikowany, a więc opisałem go w dalszej, praktycznej części artykułu.
+IKE pozostaje aktywne, ale częściowy zwrot w żaden sposób nie wpływa na limity wpłat. To znaczy:
+Jeśli w danym roku kalendarzowym już wpłaciłeś środki na IKE to częściowy zwrot w żaden sposób nie „resetuje” Twojego limitu.
+Jeżeli w danym roku kalendarzowym nie wpłaciłeś jeszcze środków na IKE, a dokonujesz częściowego zwrotu to spokojnie do końca roku możesz wpłacić środki zgodnie z obecnym limitem.
+Schemat dokonania częściowego zwrotu środków z IKE zamieściłem na diagramie poniżej:
+
+
+Istotnym do zrozumienia jest też fakt, że w przypadku częściowego zwrotu środków z IKE w żadnym wypadku nie tracimy uzyskanych już „praw emerytalnych”, czyli nie resetuje się liczba wpłat w unikalnych latach kalendarzowych. Oznacza to, że w 99% przypadków bardziej opłaci Ci się dokonać częściowego zwrotu środków z pozostawieniem na IKE 100 zł (zakładając, że tylko tyle zysku z inwestycji miałeś na tym koncie), niż całościowego zwrotu, wiążącego się z likwidacją Twojego IKE. Pora omówić sposoby wypłaty środków z IKZE, które nieco różnią się od tych dotyczących konta IKE.
+
+
+Sposoby wypłaty pieniędzy z IKZE
+Podobnie jak w przypadku konta IKE, z IKZE, po spełnieniu warunków emerytalnych, możemy również wybrać sposób wypłaty środków, czyli dokonać jej jednorazowo, albo w ratach. Jako, że IKE i IKZE rządzą się zupełnie innymi prawami to rozdział ten przedstawi kilka subtelnych, ale istotnych różnic między tymi dwoma kontami. Także w tym przypadku zaczniemy od opisania procedury wypłaty jednorazowej, którą oszczędzający zlecić może po spełnieniu warunków emerytalnych.
+
+
+Wypłata emerytalna (jednorazowa) z IKZE
+Jednorazowa wypłata emerytalna to – podobnie jak w przypadku IKE – najprostszy sposób wypłaty środków z IKZE. Polega ona na spełnieniu następujących wymagań:
+
+
+(Wymaganie) Ukończony 65 rok życia i wpłaty (dowolnej wysokości) na IKZE w co najmniej w 5 dowolnych latach kalendarzowych
+IKZE można prowadzić (kontynuować wpłaty), gdy osiągnie się wiek emerytalny, ale dowolne zlecenie wypłaty (niezależnie czy jednorazowej, czy w ratach) powoduje brak możliwości dalszego dokonywania nowych wpłat na konto. Schemat jednorazowej wypłaty emerytalnej z IKZE przedstawiłem na diagramie poniżej:
+
+
+Istotną różnicą między kontami IKE, a IKZE jest to, że przy wypłacie emerytalnej z IKZE całość naszych środków zostaje obciążana podatkiem ryczałtowym 10%. Bazuje on na przychodzie, a więc całej uzbieranej kwocie, a nie na zysku, czyli tym, co udało nam się wypracować z naszych wieloletnich inwestycji. Ryczałt 10% w przypadku IKZE pobiera i płaci instytucja prowadząca IKZE, czyli w naszym przypadku biuro lub dom maklerskie, w którym je prowadziliśmy. Również w przypadku IKZE możliwe jest zlecenie wypłaty emerytalnej w ratach, która jednak posiada pewne ograniczenia.
+
+
+Wypłata emerytalna (w ratach) z IKZE
+O ile wypłata emerytalna w ratach jest w przypadku IKE w żaden sposób nie uregulowana to w przypadku IKZE już nie jest tak prosto. W Art. 34a. ustawy o IKE i IKZE ustawodawca zamieścił następujący ustęp:
+
+
+Wypłata w ratach środków zgromadzonych przez oszczędzającego następuje przez co najmniej 10 lat. Jeżeli wpłaty na IKZE były dokonywane przez mniej niż 10 lat, wypłata w ratach może być rozłożona na okres równy okresowi, w jakim dokonywane były wpłaty.
+
+
+Jest on szczególnie ciekawy w kontekście tego, że konto IKE nie jest w podobny sposób ograniczane, a raty mogą być dowolnej wielkości, liczby i częstotliwości tak długo jak instytucja prowadząca IKE się na to zgodzi. Zupełnie nie rozumiem wymogu przynajmniej 10-letniego okresu wypłat z IKZE, zwłaszcza, że IKE nie jest w podobny sposób ograniczane ustawowo. Co więcej: oszczędzający może w każdej chwili zmienić zdanie i już w okresie trwania wypłat ratalnych może…zażądać jednorazowej wypłaty całości zgromadzonych środków. Przyznasz chyba, że logika ta jest dosyć pokrętna, ale do niej jeszcze wrócimy. Tak w dużym uproszczeniu wygląda proces wypłaty ratalnej z IKZE:
+
+
+Podobnie jak w przypadku IKE, wypłata ratalna z IKZE zakłada, że to oszczędzający zapewni maklerowi „płynność”, a więc wolne środki na koncie IKZE, z którego raty mają być wypłacane. Poza powyższymi środki z kont IKZE można także transferować do innych instytucji, ale tylko w ramach IKZE.
+
+
+Wypłata transferowa z IKZE do IKZE
+Ten rozdział będzie bardzo krótki, gdyż z uwagi na walory podatkowe IKZE, a konkretniej możliwość odliczenia wpłaty na takie konto od podstawy opodatkowania w danym roku kalendarzowym, transfery z/do IKZE są bardzo proste. Możliwy jest bowiem wyłącznie transfer z istniejącego IKZE na nowe IKZE, który zawsze oznacza zamknięcie tego pierwszego konta. Podobnie jak w przypadku IKE, transferuje się „środki”, a zatem zarówno gotówkę, jak i instrumenty finansowe, a więc tak długo jak obydwie instytucje prowadzące IKZE umożliwiają obrót danymi papierami wartościowymi to posiadasz IKZE nie musi tych papierów spieniężać, mogąc przenieść je ze starego IKZE do nowego IKZE bezpośrednio. Co jeśli potrzebujesz środków z IKZE przed spełnieniem warunków emerytalnych?
+
+
+Pełen zwrot środków z IKZE
+Zacznijmy od tego, że w przypadku kont IKZE nie ma możliwości częściowego zwrotu środków przed emeryturą. Obowiązuje tu zasada: albo wypłacasz całość i zamykasz konto, albo kontynuujesz oszczędzanie. Sprawia to, że IKZE z jednej strony dzięki swojemu walorowi obniżania należnego podatku PIT jest dla osób pracujących (zwłaszcza tych w drugim progu podatkowym) opcją bardzo atrakcyjną, ale z drugiej należy na nie wpłacać tylko środki, których na pewno nie będziemy musieli wypłacać przed emeryturą. Jeśli jednak zdarzy się, że środki z IKZE będziesz musiał wypłacić to spowoduje to obowiązek doliczenia kwoty przychodu (całej uzbieranej na IKZE kwoty) do rocznego rozliczenia PIT-36 lub PIT-37. Opiszę to w szczególe w dalszej części wpisu, a póki co zachęcam do zerknięcia na diagram, który proces całkowitego zwrotu z IKZE obrazuje:
+
+
+Należy pamiętać, że całkowity zwrot środków z IKZE zawsze implikuje jego zamknięcie, ale nie oznacza, że nie będzie można go w przyszłości założyć ponownie. Podobnie jak w przypadku konta IKE, niecierpliwy posiadacz IKZE będzie mógł już w kolejnym roku założyć IKZE powtórnie i dokonać na nie wpłaty zgodnie ze swoim limitem rocznym jak na diagramie poniżej:
+
+
+Również w przypadku IKZE zlecenie całkowitego zwrotu środków i zamknięcie takiego konta „resetuje” naszą historię wpłat, a więc jeśli w przyszłości zdecydujemy się na założenie kolejnego IKZE to może być nam nieco ciężej spełnić warunki konieczne odroczenia podatku dochodowego (ukończenie 65 roku życia i wpłaty w 5 dowolnych latach kalendarzowych). Pora na najciekawszą część wpisu, w której zaprezentuję Ci na przykładach jak wygląda całkowity zwrot środków z IKE i IKZE oraz częściowy zwrot środków z IKE.
+
+
+Przykłady zwrotu środków z IKE
+Przejdźmy do najważniejszej, bo praktycznej części wpisu, w której „rozprawimy się” wspólnie z przeliczeniem podatków w przypadku wszystkich trzech opcji zwrotu (przedemerytalnego) środków z kont IKE i IKZE, a mianowicie:
+
+
+Całkowitego zwrotu środków z konta IKE.
+Częściowego zwrotu środków z konta IKE.
+Całkowitego zwrotu środków z konta IKZE.
+W przypadku wcześniejszej wypłaty z IKE (niezależnie, czy częściowej, czy całościowej) podatek Belki zostanie obliczony i pobrany przez naszego maklera z kwoty wypłaty, stąd sami nie musimy nic rozliczać, ale warto wiedzieć jak taka kalkulacja przebiega. Jeśli o konto IKZE chodzi, to jest zgoła inaczej, bo pełną kwotę zwrotu otrzymamy na nasze konto bankowe, ale powstanie obowiązek doliczenia jej do przychodu podatkowego w PIT za rok podatkowy, w którym takiego zwrotu dokonaliśmy. Zaczniemy od sytuacji, w której osoba oszczędzająca chce wypłacić całą zawartość swojego maklerskiego IKE.
+
+
+Całkowity zwrot środków z IKE w praktyce
+Zacznijmy od prostego wariantu, jakim jest całkowity zwrot środków z konta IKE. W omawianym przykładzie oszczędzający używa konta przez 3 lata, w każdym z nich wpłacając na nie po 10 tysięcy złotych. W międzyczasie osiąga spektakularny zysk wynoszący 43,3% na całym kapitale i pod koniec 3 roku zleca maklerowi całkowitą wypłatę. Transakcje wyglądają w tym przypadku następująco:
+
+
+IKE - Zwrot całościowy
+
+
+Operacje:
+
+
+KWOta wpłatY/wypłaty
+
+
+Wartość kapitału i wartość wpłat (łączna)
+
+
+ROK1 - Wpłata
+
+
++10 000 zł
+
+
+10 000 zł (10 000 zł z wpłat)
+
+
+ROK2 - Wpłata
+
+
++10 000 zł
+
+
+24 500 zł (20 000 zł z wpłat)
+
+
+ROK3 - Wpłata
+
+
++10 000 zł
+
+
+41 000 zł (30 000 zł z wpłat)
+
+
+ROK3 - Zwrot całościowy
+
+
+-43 000 zł (z czego 30 000 zł z wpłat i 13 000 zł zysku)
+
+
+0 zł
+
+
+Powyższa tabela wymaga wyjaśnienia, gdyż nie dla wszystkich może być jasne ile środków inwestor otrzyma od swojego maklera z powrotem. Poniżej znajdziesz dokładny opis i wyjaśnienie transakcji wypłaty z końca 3 roku oszczędzania na IKE wraz z opisem procedury pobrania podatku Belki przez maklera:
+
+
+W roku 3, składając dyspozycję całościowego zwrotu środków inwestor miał na IKE 43 000 zł, z czego 30 000 zł pochodziło z wpłat na konto, a 13 000 zł było zrealizowanym zyskiem z inwestycji.
+W celu uproszczenia przykładu zakładamy, że prowadzenie rachunku i transakcje nie wiązały się z żadnymi prowizjami lub wynik 13 000 zł jest już wynikiem „na czysto”, czyli po uwzględnieniu kosztów związanych z inwestowaniem w domu/biurze maklerskim.
+Przy zwrocie całościowym z IKE makler pobiera (w imieniu inwestora, podobnie jak robi to zwykle dla dywidend z polskich spółek, zobacz też wpis „Jak rozliczyć podatek z giełdy? Wszystko o PIT-38 i PIT-8C” cały zaległy podatek Belki. Wynosi on dokładnie 2470 zł, czyli 19% z 13 000 zł wypracowanego na IKE zysku.
+Inwestor otrzymuje na swój rachunek bankowy 40 530 złotych, czyli 43 000 zł kapitału pomniejszone o 2470 zł podatku Belki, który odciągnął makler.
+IKE zostaje zamknięte. Inwestor może założyć kolejne konto IKE, ale kolejna roczna wpłata będzie możliwa do wykonania dopiero w następnym roku.
+Inwestor może korzystać ze środków w dowolny sposób. Nie musi też uwzględniać rozliczenia zysku związanego ze zlikwidowanym IKE w PIT-38.
+To by było na tyle jeżeli o prosty przykład chodzi. Sytuacja się znacznie komplikuje jeśli zlecimy maklerowi jedynie częściowy zwrot z IKE, o czym doskonale wie Łukasz, z którym prowadziliśmy pod wpisem „ETF (5/6) – Jak rozliczyć podatek z ETF-ów? Zyski i dywidendy” bardzo ekstensywną dyskusję na ten temat. Swoją drogą warto dyskutować, bo gdyby nie ta konwersacja to nigdy pewnie nie wpadłbym na zbadanie tematu i opisanie go w osobnym wpisie, tak jak robię to dzisiaj.
+
+
+Częściowy zwrot środków z IKE w praktyce
+Konto IKE, w przeciwieństwie do IKZE, oferuje prowadzącemu także częściowy zwrot w wysokości ograniczonej sumaryczną wysokością dotychczasowych wpłat na to konto. Istotne jest tylko to, by na koncie IKE została przynajmniej 1 złotówka, choć wymagana pozostała kwota zależy od instytucji, w której IKE prowadzisz. Oto transakcje, które w tym przykładzie rozliczymy, wspólnie obliczając należny podatek Belki w skomplikowanej sytuacji, gdy inwestor pozostawia część kapitału w akcjach, sprzedając jedynie ich część:
+
+
+IKE - Zwrot częściowy
+
+
+Operacje:
+
+
+KWOta wpłatY/wypłaty
+
+
+Wartość kapitału i wartość wpłat (łączna)
+
+
+ROK1 - Wpłata
+
+
++10 000 zł
+
+
+10 000 zł (10 000 zł z wpłat)
+
+
+ROK2 - Wpłata
+
+
++10 000 zł
+
+
+24 500 zł (20 000 zł z wpłat)
+
+
+ROK2 - Zwrot częściowy
+
+
+-10 000 zł
+
+
+25 000 zł (20 000 zł z wpłat)
+
+
+Przy czym w chwili zwrotu 10 000 zł jest w gotówce, a 15 000 zł w akcjach.
+
+
+Po zwrocie:
+
+
+15 000 zł (12 000 zł z wpłat)
+
+
+ROK3 - Wpłata
+
+
++10 000 zł
+
+
+27 000 zł (22 000 zł z wpłat)
+
+
+ROK4 - Wpłata
+
+
++10 000 zł
+
+
+45 000 zł (32 000 zł z wpłat)
+
+
+Istotne w powyższym przykładzie jest to, że inwestor w momencie zlecenia maklerowi częściowego zwrotu, posiada na koncie równowartość 25 000 zł, z czego 10 000 zł to gotówka do wypłaty, zaś 15 000 zł pozostaje w akcjach. Jak zatem dojść do tego ile podatku Belki „przynależy” do wypłacanego 10 000 zł? Sprawę wyjaśnia, a zarazem rozstrzyga ciekawa interpretacja indywidualna dotycząca niejasności związanej ze „środkami, które pochodziły z wpłat na IKE” i tym jak obliczyć podatek im przynależny. Choć i tak zrobi to za nas makler to warto wiedzieć jak działa procedura poboru podatku Belki przy częściowym zwrocie środków z IKE:
+
+
+W roku 2, składając dyspozycję częściowego zwrotu środków w wysokości 10 000 zł inwestor miał na IKE 25 000 zł, z czego 20 000 zł pochodziło z wpłat na konto, a 5000 zł było zyskiem z inwestycji. Problem w tym, że 15 000 zł pozostało w momencie wypłaty akcjach.
+Problem: ile podatku pobierze w tym przypadku makler? Jak obliczyć do niego bazę?
+Z pomocą przychodzi interpretacja indywidualna pracowników urzędu skarbowego, w której wynika, że makler policzy podatek w sposób następujący:
+Baza do podatku = (gotówka + pieniądze, za które pozostające na koncie akcje były kupione) – łączna kwota wpłat na IKE.
+W naszym przypadku bazą do obliczenia opodatkowania będzie więc 10 000 zł + 12 000 zł (za tyle kupiliśmy akcje, które są warte obecnie 15 000 zł i pozostają na koncie IKE) – 20 000 (łączna kwota wpłat na IKE), a więc 2000 złotych.
+Podatek, który pobierze przy wypłacie środków makler wyniesie zatem 19% z 2000 zł, czyli 380 złotych. Oznacza to, że na kwotę wypłaty (10 000 zł) „przypada” 8000 oryginalnie wpłaconych na IKE środków, a 2000 zł wynosił zysk do opodatkowania.
+Inwestor otrzymuje na swój rachunek bankowy kwotę 9 620 zł złotych, czyli 10 000 zł kapitału pomniejszone o 380 zł podatku Belki, który odciągnął makler.
+Rachunek IKE pozostaje otwarty, a posiadane na nim akcje warte 15 000 zł nienaruszone.
+Inwestor może korzystać z wypłaconych częściowym zwrotem z IKE środków w dowolny sposób. Nie musi też uwzględniać zysku związanego z częściowym zwrotem środków z IKE w PIT-38 w kolejnym roku.
+Dlaczego rozliczane jest to w taki, a nie inny sposób (np. proporcjonalnie do zysku całego konta w momencie częściowego zwrotu)? Odpowiedź jest prosta: nie da się i nie wolno opodatkowywać inwestycji, która jeszcze trwa, a akcje pozostają nienaruszone na koncie. Z tego powodu, korzystając z powyższego wzoru dochodzimy do kwoty oryginalnej wpłaty, która „dotyczy” kwoty zwrotu i jedynie z owej różnicy makler pobiera należny podatek Belki, czyli w tym przypadku 380 złotych. Zanim przejdziemy do omówienia zwrotu z IKZE, opiszę Ci krótko kwestie podatkowe związane ze zwrotem środków z IKE.
+
+
+Zwrot z IKE, a podatki
+Niezależnie czy dokonujesz częściowego czy całościowego zwrotu środków z IKE, będzie to się wiązało z koniecznością zapłaty zaległego podatku od zysków kapitałowych, czyli podatku Belki. Jest to o tyle proste, że zajmuje się tym (za nas) makler, podczas gdy my możemy cieszyć się oszczędzonym czasem i brakiem konieczności uzupełniania naszego PIT-38 o transakcje dotyczące zwrotu z IKE. Z drugiej strony oznacza to, że na konto otrzymamy mniej środków niż wynikałoby to ze zlecenia wypłaty, ale z tego, co mi wiadomo makler ma obowiązek poinformować oszczędzającego o wysokości zwrotu netto przed jego dokonaniem. Skoro obydwa zwroty z IKE mamy już wyjaśnione to zajmijmy się jeszcze kompleksowym opisem całościowego zwrotu środków z maklerskiego IKZE.
+
+
+Przykład zwrotu środków z IKZE
+Zwrot środków z IKZE swoją mechaniką bardzo przypomina zwrot z IKE z jedną sporą różnicą. Konta IKZE w ogóle nie dotyczy podatek Belki, a więc również przy zwrocie środków nie „aktywuje się on” w żaden sposób, o czym zaraz napiszę w szczególe. Jako, że IKZE oferuje bieżące korzyści podatkowe w postaci odliczenia kwoty wpłat od podstawy opodatkowania w formularzach PIT-36/PIT-36L i PIT-37 (poprzez dodanie PIT/O do formularza) to przedwczesne jego zerwanie generuje obowiązek doliczenia wypłacanych środków do przychodu z danego roku (co możliwe jest tylko w PIT-36 i PIT-37). I nie mówię tu tylko o równowartości kwot wpłat, zaś o całej kwocie, którą z IKZE wypłacamy, czyli kapitału + zysku, co będzie bardzo szczegółowo przedstawione w poniższym przykładzie:
+
+
+IKZE - Zwrot całościowy
+
+
+operacje:
+
+
+KWOta wpłatY/wypłaty
+
+
+Wartość kapitału i wartość wpłat (łączna)
+
+
+ROK1 - Wpłata
+
+
++5000 zł
+
+
+5000 zł (5000 zł z wpłat)
+
+
+ROK2 - Wpłata
+
+
++5000 zł
+
+
+14 000 zł (10 000 zł z wpłat)
+
+
+ROK3 - Wpłata
+
+
++5000 zł
+
+
+23 000 zł (15 000 zł z wpłat)
+
+
+ROK3 - Zwrot całościowy
+
+
+-25 000 zł (z czego 15 000 zł z wpłat i 10 000 zł zysku)
+
+
+0 zł
+
+
+Ponownie przykład dotyczy inwestora, który przez 3 lata dokonuje wpłat prawie pod korek, zaś pod koniec 3 roku „budzi się”, uświadamiając sobie, że bardzo potrzebuje na coś tych środków. W momencie zlecenia całościowego zwrotu z IKZE posiada on na tym koncie środki pieniężne w wysokości 25 000 zł, z czego 15 000 zł pochodzi z wpłat na konto, a 10 000 zł ze zrealizowanego zysku z inwestycji. Przestudiujmy transakcję krok po kroku.
+
+
+Całkowity zwrot środków z IKZE w praktyce
+Oto jak transakcja zwrotu środków z IKZE wygląda pod kątem techniczno-podatkowym:
+
+
+W roku 3, składając dyspozycję całościowego zwrotu środków inwestor miał na IKZE 25 000 zł, z czego 15 000 zł pochodziło z wpłat na konto, a 10 000 zł było zrealizowanym zyskiem z inwestycji.
+W celu uproszczenia przykładu zakładamy, że prowadzenie rachunku i transakcje nie wiązały się z żadnymi prowizjami lub wynik 10 000 zł jest już wynikiem „na czysto”, czyli po uwzględnieniu kosztów związanych z inwestowaniem w domu/biurze maklerskim.
+W przypadku IKZE podatek Belki nie będzie pobrany przez maklera i cała kwota 25 000 zł zostanie zwrócona na nasz rachunek bankowy.
+Opodatkowanie tej kwoty leży teraz w gestii inwestora. Musi on pełną kwotę wypłaty doliczyć do rocznego przychodu w PIT-36 lub PIT-37, czyli do przychodu z pracy lub samozatrudnienia.
+W praktyce oznacza to, że w związku z awaryjnym zwrotem z IKZE inwestor zapłaci:
+17% z 25 000 zł, czyli 4250 zł jeśli mimo zwiększenia przychodu o 25 000 inwestor pozostaje w pierwszym progu podatku dochodowego od osób fizycznych.
+32% z 25 000 zł, czyli 8000 zł jeśli wszedł on w drugi próg podatkowy.
+19% z 25 000 zł, czyli 4750 zł jeśli rozlicza się on podatkiem liniowym.
+Powyższe rozliczenie nie ma żadnego związku z PIT-38, którego także w tym przypadku nie trzeba, a wręcz nie powinno się składać. Dokonuje się jej dodając kwotę zwrotu jako „przychody z innych źródeł” w PIT-36 lub PIT-37.
+Konto IKZE zostaje zamknięte. Inwestor może w każdej chwili założyć kolejne, ale kolejna roczna wpłata będzie możliwa dopiero w następnym roku kalendarzowym.
+Powyższe punkty dość dobrze tłumaczą całą procedurę, ale zwrotowi środków z IKZE należy się jeszcze wzmianka o samych podatkach.
+
+
+Zwrot z IKZE, a podatki
+Być może zaskoczyło Cię to, że zwrot z IKE opodatkowany jest podatkiem Belki, a zwrot z IKZE już nie, ale zapewniam Cię, że ustawodawca znalazł sposób, by odpowiednio „ukarać” niecierpliwego posiadacza konta IKZE. W przypadku przedwczesnej wypłaty z IKZE, cała jej kwota musi być doliczona przez podatnika do jego rocznego przychodu w PIT-36 lub PIT-37, a więc „sprawiedliwości staje się zadość”, a urząd skarbowy – tym, czy innym sposobem – otrzymuje od nas należny podatek. Na naszej grupie na Facebooku niejednokrotnie przewinął się następujący przykład:
+
+
+Inwestor w latach, gdy wpłaca na IKZE „wpada” w drugi próg podatkowy, a więc w każdym roku odlicza 32% od kwoty wpłaty na IKZE.
+Po X latach inwestor składa zlecenie całkowitego zwrotu środków z IKZE. W chwili rezygnacji inwestor:
+Zarabia mniej, nie wchodząc w drugi próg, a więc wypłata z IKZE „mieści się” w progu podatku progresywnego 17%.
+Prowadzi własną firmę, rozliczając się podatkiem liniowym 19%.
+Nie osiąga przychodu w ogóle, a więc (teoretycznie) część kwoty zwrotu z IKZE zmieści się w kwotę wolną od podatku.
+W każdym z powyższych przypadków inwestor skorzystał na wpłatach bardziej niż płaci za wypłatę, ale pozostają one tylko ciekawostką i czymś do potwierdzenia. Podczas moich poszukiwań nie udało mi się znaleźć w prawie podatkowym niczego, co świadczyłoby o braku możności przeprowadzenia powyższych operacji, ale dobrze jakby wypowiedział się tu ktoś bardziej obeznany z prawem podatkowym w kontekście zwrotu środków z konta IKZE.
+
+
+O czym należy pamiętać przed zwrotem środków z kont IKE i IKZE
+Niezależnie z jakiego powodu trafiłeś na mój wpis pragnę zostawić Ci kilka wskazówek:
+
+
+Kontroluj wysokość wpłat na IKE i IKZE, by nigdy nie musieć ruszać wpłaconych tam środków. Pamiętaj, że nie trzeba wykorzystywać całości limitów rocznych kont jeśli obecnie nie posiadasz na to środków.
+Zwrot z IKE zawsze warto wykonywać częściowo. Zostawiając IKE otwarte z przynajmniej 1 zł na koncie zachowujesz całą historię wpłat, a więc możliwość zwolnienia z podatku jeśli w przyszłości zechcesz znowu korzystać z konta.
+Zlecając zwrot środków z IKZE pamiętaj, że sam musisz opodatkować otrzymane środki. Opisałem to kilka akapitów wyżej, ale jest to informacja bardzo istotna z punktu widzenia prawa podatkowego.
+Pora na podsumowanie wpisu. Jeśli zawarte tu informacje się przydały to będę wdzięczny jeśli założysz konto maklerskie z jednego z poniższych linków, co znacząco wesprze moją działalność blogerską:
+
+
+Potrzebujesz taniego konta maklerskiego do inwestowania?
+
+
+Kliknij, by założyć konto z 0% prowizją transakcyjną w XTB!
+Potrzebujesz lepszej oferty ETF-ów lub chcesz założyć maklerskie IKE/IKZE?
+
+
+Kliknij, by założyć eKonto i eMaklera/IKE/IKZE w mBanku!
+Instrukcja zakładania i obsługi konta eMakler
+
+
+Oferowane instrumenty finansowe, zwłaszcza z dźwignią, niosą ryzyko strat przekraczających zainwestowany kapitał.
+
+
+Podsumowanie
+Choć był to jeden z tych bardziej technicznych wpisów, w których zwykle mało jest miejsca na luźne interpretacje i kreatywność to mam nadzieję, że okaże się on dla Ciebie przydatny. Z drugiej strony równie mocna jest moja nadzieja, że nigdy nie będziesz musiał dokonywać zwrotu ani z IKE, ani z IKZE, ale jeśli już znajdziesz się w takiej potrzebie to zaczynaj od IKE, dokonując zwrotu częściowego. Jest to zdecydowanie najbardziej korzystne ze względu na możliwość dalszego prowadzenia konta i nie kasowanie Twojej historii jako solidnego inwestora emerytalnego. Daj znać w komentarzach jeśli coś jest niejasne lub po prostu by skomentować całą procedurę obliczania i poboru należnego podatku przy zwrocie środków z IKE lub z IKZE. Jeśli wpis się przydał to pamiętaj o polubieniu mojego fanpage-a na Facebooku i obserwowaniu mnie na Twitterze. Dzięki!

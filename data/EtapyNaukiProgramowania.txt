@@ -1,0 +1,88 @@
+﻿Nauka programowania to proces złożony, długotrwały i wymagający ciągłego doszkalania. Świat IT zmienia się niesamowicie szybko. Pojawiają się nowe technologie, stare ewoluują, a my programiści musimy się w tym wszystkim jakoś odnaleźć. Dzisiaj w dobie wszechobecnych materiałów edukacyjnych, blogów, tutoriali video i książek, jest zdecydowanie łatwiej niż jeszcze parę lat temu. Ci co mieszkają w dużych akademickich miastach mają dodatkowo możliwość uczestniczenia w różnego rodzaju meetup’ach czy też tematycznych konferencjach. Dla chcącego nie ma nic trudnego.
+
+
+
+
+Fot: kpr2, CC0.
+Często jednak, kiedy chcemy zagłębić się bardziej w konkretną tematykę, możemy natrafić na wielki mur. To co obserwuje na różnego rodzaju grupach zrzeszających „junior developerów” czy też inne osoby startujące w IT, zdaje się potwierdzać moje przypuszczenia. Obecnie jak nigdy dotąd mamy na rynku bardzo dużo osób posiadających szeroką wiedzę z zakresu inżynierii oprogramowania, ale jednocześnie ta wiedza jest strasznie płytka. Kandydaci na przyszłych programistów wpisują w CV znajomość miliona pięciuset technologii, ale większość z nich, znają na poziomie aplikacji „hello world”. Czy mnie to dziwi? W zasadzie to nie. Jest to efekt tego co dość często można znaleźć w internecie. Tysiące, a nawet miliony przeróżnych materiałów edukacyjnych, które nazywane są kompletnymi kursami mającymi zrobić z czytelnika programistę. W rzeczywistości powinny być one określone wielkimi nagłówkami „Wstęp do wprowadzenia w XYZ” gdzie XYZ to nazwa dowolnej technologii.
+
+
+Na osobny wpis zasługują wszystkie te reklamy różnych bootcamp’ów czy innych szkoleń, gdzie krzyczy się do odbiorcy – „zostań programistą w miesiąc”. Serio? Niestety dużo osób się wciąż na to nabiera, a potem wielkie rozczarowanie. Ale jak to? Przez trzy miesiące nie znalazłem pracy? Co jest nie tak? No nie znalazłeś, bo jesteś do niej źle przygotowany albo masz zbyt wysokie oczekiwania.
+
+
+Po tym wstępie zapytasz się pewnie, w jaki sposób możesz uczyć się programowania? Odpowiedź na to pytanie jest prosta, po prostu programując. Zdaje sobie jednak sprawę z tego, że otwarcie IDE i pisanie, bądź próbowanie napisania linijek kodu bez uprzedniej wiedzy jak działa dany język może być dość trudne. Na studiach informatycznych (przynajmniej tych, które ja ukończyłem) na pierwszym roku tak naprawdę nie napisałem żadnego konkretnego projektu. Co robiłem przez ten czas? Moją studencką przygodę zacząłem od rzeczy dość banalnej, czyli poznawania tego w jaki sposób działają zmienne, pętle, instrukcje warunkowe, zasady programowania obiektowego, polimorfizm, dziedziczenie, interfejsy. Między czasie przewinęły się jeszcze takie zagadnienia jak maszyna Turinga, systemy liczbowe czy systemy operacyjne. Równocześnie dość intensywnie poszerzałem swoją wiedzę z tematyki algebry liniowej, analizy matematycznej oraz co najważniejsze algorytmów. Algorytmy (przynajmniej te dość podstawowe, jak np. sortowania, wyszukiwania cyklu w grafie) to coś co tak naprawdę raczej przez całą Twoją karierę się nie zmieni, ale nie o to tutaj chodzi. Celem takich zajęć jest po prostu nauka logicznego myślenia i rozwiązywania problemów. Praca programisty to w rzeczywistości ciągłe rozwiązywanie napotkanych wyzwań.
+
+
+Przejdźmy teraz do sedna tego wpisu. Chciałbym w nim pokazać lub też nakierunkować Ciebie na co powinieneś bądź powinnaś położyć nacisk w kontekście nauki programowania i w zależności od etapu, na którym obecnie jesteś. Oczywiście wszystkie te przemyślenia to moje subiektywne obserwacje, które nie muszą być tymi jedynymi prawdziwymi. Mogę się oczywiście mylić, zachęcam więc do dzielenia się swoimi spostrzeżeniami w komentarzach. Różne punkty widzenia dają nieco bardziej pełniejszy obraz.
+
+
+Dodatkowo w moich dywagacjach, dla uproszczenia zakładam, że nie masz żadnych ograniczeń czasowych, czyli nie musisz zostać „programistą” na jutro, bo właśnie zwolniłeś się z obecnej pracy i chciałeś przejść do IT. Swoją drogą to było by bardzo nierozsądne. Od razu odradzam, jeśli masz takie plany.
+
+
+Etap I – dla osób całkiem zielonych
+Początki są zawsze najtrudniejsze. Nie inaczej jest i w tym przypadku. Jeśli nigdy w życiu nie napisałeś ani jednej linijki kodu, a chcesz zostać programistą to na samym wstępie polecam w ogóle sprawdzić czy to coś, co Ciebie zainteresuje. Ja swoje pierwsze kroki stawiałem ucząc się HTML’a i CSS’a. Obie technologie z „prawdziwymi” językami programowania nie mają za wiele wspólnego. HTML to po prostu język znaczników, które odpowiednio interpretowane przez przeglądarkę internetową umożliwiają tworzenie stron internetowych (wszystko to co składa się na ich wizualną część). Za ich pomocą możemy manipulować położeniem listy, czcionką, kolorem tekstu itp. Dlaczego polecam zacząć właśnie od tego? Powód jest prosty, nie ma tutaj nic skomplikowanego. Najgorsze co można zrobić ucząc się nowych rzeczy to zacząć od zbyt wysokiego poziomu. HTML i CSS nie oferują żadnych pętli, zmiennych czy innych „skomplikowanych” elementów. To po prostu znaczniki, które wpisujemy jeden pod drugim. W przyszłości nawet jeśli nie będziesz rozwijał swojej kariery w stronę frontend’u i tak, wiedza ta Ci się zawsze przyda. Jeśli jesteś na tym etapie nie musisz również od razu inwestować w jakieś kursy bądź książki. Potrzebne informacje i tutoriale znajdziesz w Internecie. Jest dość dużo fajnych materiałów, które poruszają tą tematykę. Jeśli jednak z jakiś przyczyn dostępne artykuły nie będą dla Ciebie wystarczające to mogę polecić Ci świetną serię książek – Head First – stworzoną właśnie dla osób całkowicie początkujących. Krótko mówiąc to „kolorowanki”, które w maksymalnie prosty sposób tłumaczą różne zagadnienia ze świata programistycznego. Pisałem już o tym kilka razy na blogu. Oczywiście nie mogło również zabraknąć pozycji dotyczącej HTML’a – HTML 5. Rusz głową!.
+
+
+Jeśli chodzi o serię książek Head First to poza tą o tematyce związanej HTML’em i CSS’em są również nieco inne. Możemy znaleźć pozycję o Javie, PHP & MySQL (sam się z niej uczyłem) czy też na temat wzorców projektowych. Wszystkie te książki napisane są w konwencji, którą zrozumieją nawet osoby twierdzące, że mają duży opór przed zdobywaniem nowej wiedzy. Naprawdę gorąco polecam!
+
+
+Lista wszystkich książek z serii dostępna jest na stronie wydawnictwa helion.pl. W sprzedaży dostępne są pozycje przetłumaczone na język polski jak i te oryginalne po angielsku.
+
+
+Etap II – coś już umiem, ale w sumie to nie wiem co
+Jeśli już miałeś okazję napisać sowją pierwszą aplikację „Hello World” i wiesz, że Ci się spodobało to pewnie właśnie zastanawiasz się co dalej? Możesz czuć się też trochę przytłoczony tymi różnymi ścieżkami od „frontendowca” przez „backendowca” po administratora czy devops’a. Tutaj niestety nie mam dla Ciebie jednej konkretnej rady. Też nie wiem, czy jest sens, przynajmniej na tym etapie tak to rozróżniać. Jeżeli bardziej interesuje Cię robienie rzeczy wizualnych, budową stron internetowych, to dobrym pomysłem będzie pójście w kierunku frontu, czyli technologii takich jak HTML, CSS, Angular, React i innych podobnych frameworków. Jeśli masz zacięcie analityczne i bardziej w aplikacji interesuje Cię logika biznesowa oraz wszystko to co jest „pod spodem”, no to tu wybór jest już dość spory. Wysokopoziomowych języków programowania jest od groma. Kiedyś dużo osób na sam początek wybierało C/C++. Sam też programowałem w tej technologii na początku studiów. Dzisiaj jednak tendencje trochę się zmieniają. Jeśli miałbym zaczynać naukę programowania od zera to wybrał bym pythona – bardzo fajny i prosty do nauki język, który dodatkowo wymusza stosowanie dobrych nawyków przy tworzeniu kodu. Dobrym pomysłem jest też Java – ale mówimy tutaj o zwykłej „konsolowej” Javie nie żadnej EE (ang. Enterprise Edition) czy FX. Dopiero poznajesz działanie języków programowania, wszystkie mechanizmy obiektowości i inne elementy. Warto się więc skupić na tym jak to wszystko funkcjonuje. Chcemy być świadomymi programistami, a nie takimi, którzy coś zaprogramują, a potem po pięciu latach działania systemu nagle coś się zepsuje, bo zamiast flota użyliśmy int’a. Pół biedy, jeśli będzie to kod zwykłego bloga, ale co, jeśli nie?
+
+
+Dość popularna jest również ścieżka testerka. Jednak moim zdaniem na tym etapie powinieneś raczej przynajmniej w stopniu podstawowym zrozumieć w jaki sposób działają języki programowania, a dopiero potem specjalizować się w metodykach testowania oprogramowania. Dobry tester to świadomy tester. Ta sama zasada dotyczy również programistów.
+
+
+Podsumowując, wybierz sobie jakiś język programowania, ja polecam Pythona, Jave, C# lub w ostateczności C++. Ważne, żeby był to język zorientowany obiektowo, tak abyś mógł poznać wszystkie te mechanizmy i ogólnie zrozumieć, jak to wszystko funkcjonuje. Wybór IDE czy innych narzędzi jest tutaj mniej ważny. Zdecyduj się na to z czego będzie korzystał autor kursu, który będziesz przerabiał.
+
+
+Jeżeli spodobała Ci się nauka z książek to tutaj w dalszym ciągu mogę polecić serię „Head First” tylko tym razem już na temat Javy, Pythona bądź C#.
+
+
+Jest to też dobry moment, aby stworzyć swój pierwszy większy projekt. Jeśli interesują Cię technologie webowe takie jak PHP i chcesz je poznać w praktyce mogę zaproponować Ci lekturę książki autorstwa Marcina Wesela, na co dzień architekta aplikacji mobilnych – przygotował on kompletny przewodnik, który krok po kroku przeprowadzi Cię przez wszystkie etapy budowy własnej webowej aplikacji. Dla czytelników mam specjalną ofertę promocyjną o której podaję więcej szczegółów na końcu artykułu.
+
+
+Etap III – pierwszy certyfikat?
+Jeśli już tutaj doszedłeś to rozumiem, że masz już pewną wiedzę na temat wybranych języków programowania, potrafisz odróżnić typy danych, wiesz, jak działa polimorfizm i inne mechanizmy obiektowe. Czas więc zająć się trochę „ciekawszymi” rzeczami. Tutaj radził bym skupić się na tym, aby dobrze zrozumieć wszystkie schematy działania danego języka programowania. Już nie interesuje nas podstawowa wiedza, o tym jak działa pętla while, instrukcja warunkowa case czy inne tego typu zagwozdki. Czas poznać strukturę dziedziczenia wyjątków, typów danych, zależności między różnymi wbudowanymi w dany język programowania obiektami czy też nieco bardziej zaawansowane biblioteki wykorzystywane do budowy zaawansowanych systemów informatycznych (w Java będzie to np. Hibernate czy Spring). Skąd masz wiedzieć czego się uczyć? Polecam tutaj zapoznać się z materiałem jaki wymagany jest do zaliczenia pierwszego certyfikatu developerskiego w danej technologii (np. w Java będzie to OCAJP I). W sieci bez problemu znajdziesz sylabusy oraz szczegółowy opis wymagań.
+
+
+Z literatury mogę tutaj zaproponować np. Thinking in Java, Thinking in C++.
+
+
+Jeśli wybrałeś ścieżkę testerką to tutaj sprawa jest dość prosta. Zapoznaj się z sylabusem egzaminu ISTQB na poziomie podstawowym (ang. Foundation level). Na stronie polskiego stowarzyszenia jakości systemów informatycznych (sjsi.org) masz dostępne wszystkie te materiały w języku polskim. Nauki jest naprawdę sporo.
+
+
+Jeśli chcesz dowiedzieć się więcej na temat tego jak przebiega proces certyfikacji to zapraszam do artykułu o tym jak zostałem certyfikowanym testerem ISTQB oraz certyfikowanym programistą Java.
+
+
+Etap IV – coś bardziej uniwersalnego
+To co robiłeś do tej pory to po prostu nauka danej technologii oraz ogólne zrozumienie tego w jaki sposób ona działa. Doszedłeś więc do poziomu na jakim w większości przypadków są studenci pierwszego roku studiów informatycznych. Przyszedł czas na poznanie nieco bardziej uniwersalnych zagadnień. Mam tutaj oczywiście na myśli wszelkiego rodzaju struktury danych (listy, kolejki, stosy, grafy…) oraz algorytmy. Jest to już tematyka, o której ciężko znaleźć jakieś sensowne materiały w internecie. Nie ma co się jednak załamywać bowiem lukę tą znakomicie nadrabia dostępna literatura. Warto też dodać, że są to zagadnienia, które w zdecydowanej większości przypadków z biegiem czasu cały czas pozostają aktualne.
+
+
+Tyle tytułem wstępu, teraz czas na kilka wyjaśnień. Jeśli chodzi o poznawanie różnego rodzaju algorytmów czy też struktur danych to jak pewnie się domyślacie nie ma lepszej książki niż „Wprowadzenie do algorytmów”, której głównym autorem jest Thomas Cormen. Ja czasami żartuję, że na bazie tej pozycji na studiach miałem poprowdzonych pięć przedmiotów (algebra liniowa i geometria, analiza matematyczna, matematyka dyskretna, rachunek prawdopodobieństwa i statystyka, teoria języków i automatów). Większość więc tego czego uczysz się studiując informatykę można znaleźć w jednej dość dużej „cegle”. Od razu zaznaczam, że poruszany materiał może wydawać się dość trudny, a niektóre zagadnienia będą wymagały wiedzy z zakresu matematyki. Nie przejmuj się tym!
+
+
+Tutaj mamy znakomity przykład na to, że tego czego uczymy się na matematyce ma duże znaczenie w informatyce. Czy wiesz w jaki sposób wykrywa się zakleszczenie transakcji w systemach bazodanowych? W tym celu wykorzystuje się algorytm wykrywający cykl w grafie. Tego rodzaju zagadnienia miałem okazję poznawać studiując „matematykę dyskretną” – przedmiot niby zupełnie nie przydatny, ale jednak!
+
+
+Po co w ogóle o tym pisze? Poznawanie algorytmów, struktur danych, a co za tym idzie rozwiązywanie różnych niebanalnych problemów logicznych to właśnie to czego wymaga się od dobrego programisty. Jeśli chcesz być dobry w tej dziedzinie musisz nauczyć się myśleć analitycznie, dostrzegać różne zależności tam, gdzie na pierwszy rzut oka ich nie widać, a przede wszystkim wiedzieć w jaki sposób działają i są zaimplementowane pewne mechanizmy na co dzień używane przez programistów. Taka wiedza pozwoli Ci programować „z głową” i uniknięcia przypadków, w których bezmyślnie wykorzystałeś wbudowaną w dany język programowania metodę do sortowania danych, mimo, że w tym konkretnym kontekście była ona wyjątkowo nieefektywna.
+
+
+Jeśli wybrałeś ścieżkę testerką, ten etap w swoim rozwoju zawodowym nie jest, aż tak istotny. Dobrze jest, żebyś wiedział w jaki sposób funkcjonują struktury danych, jak działają podstawowe algorytmy, ale to raczej nie będzie coś co będzie miało duży wpływ na wykonywaną przez Ciebie pracę (zawodowo testerem nie jestem więc oczywiście mogę się mylić w tej kwestii).
+
+
+Etap V – praktyka i pierwsza praca
+Tym sposobem doszliśmy chyba do najciekawszego momentu. Pora skończyć uczyć się dla samej nauki i zacząć robić coś użytecznego. Nie można zostać programistą nie programując. Pora więc zapoznać się z zagadnieniami takimi jak SOLID czy wzorcami projektowymi oraz zabrać się za budowę i rozwijanie swojej pierwszej dużej aplikacji. Jest to też dobry moment, żeby poszukać pierwszego stażu i nauczyć się pracy w grupie. Pamiętaj, że IT wymaga ciągłego dokształcania się oraz aktualizowania już zdobytej wiedzy. Technologie zmieniają się niesamowicie szybko, to co dzisiaj jest popularne jutro może być czymś archaicznym.
+
+
+Jeśli szukasz swojego pierwszego stażu to zachęcam do jego lektury wywiadu z Pauliną Bis, specjalistką ds. rekrutacji, a przede wszystkim koordynatorką programu stażowego Comarch: strefakodera.pl/blog/o-programie-stazowym-comarch-wywiad-z-paulina-bis.
+
+
+Etap VI – od juniora do…
+Tutaj już w zasadzie nie mam co pisać. Jeśli pracujesz na stanowisku młodszego programisty bądź dostałeś się na staż do jakiejś firmy, sam powinieneś mieć wystarczającą wiedzę jak dalej pokierować swoją ścieżką kariery. Na pewno też pracujesz z kimś bardziej doświadczonym lub masz swojego „opiekuna stażowego”. Zawsze możesz wszystkie wątpliwości rozwiać właśnie z takimi osobami. Temat ścieżek kariery w zawodzie programisty jest naprawdę obszerny i nie będę o tym pisał w tym materiale.  
+
+
+Chciałem Ci tutaj pokazać, jak wyglądają etapy nauki programowania. Myślę, że po lekturze będziesz miał mniej więcej rozeznanie jak to wygląda, a przede wszystkim nie nabierzesz się na wszystkie te reklamowe hasła – „zostań programistą w jeden miesiąc”. Jak widzisz to mało realne. Mam nadzieję, że ten artykuł posłuży Ci jako swoisty kierunkowskaz, który pokaże Ci czego się uczyć oraz jak w ogóle wystartować z tą nauką. Jak wspomniałem wcześniej wszystko to, to moje subiektywne przemyślenia. Jeśli masz inne zdanie bądź uważasz, że coś opisałem źle zachęcam do podzielenia się stosowną opinią w sekcji komentarzy. Proszę jednak o merytoryczne wypowiedzi, z góry zaznaczam, że wszelkie wpisy z kategorii „hejtu” będą od razu usuwane.

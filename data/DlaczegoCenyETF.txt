@@ -1,0 +1,575 @@
+﻿Inwestycja w ETF na obligacje to co innego niż inwestycja w obligacje.
+W ciągu ostatnich tygodni otrzymałem naprawdę sporo maili z pytaniami dotyczącymi jednego zagadnienia. Większość wysłanych do mnie wiadomości zawierało bowiem pytanie lub pytania o to dlaczego ceny funduszy ETF na obligacje zmieniają się dynamicznie. Jak to możliwe? Przecież w serii o ETF-ach pisałem, że inwestowanie w te notowane na giełdzie fundusze to prawie to samo, co inwestowanie bezpośrednie w akcje lub w obligacje, które przecież znajdują się w portfelach ETF-ów. Dlaczego więc dziś piszę, że inwestowanie bezpośrednio w obligacje notowane na rynku różni się od inwestowania w fundusze ETF na obligacje? Z prostego powodu: z uwagi na sposoby kreacji i wyceny jednostek funduszu ETF, które sprawiają, że ETF obligacyjne posiadają dodatkową warstwę ryzyka, której „nie widać”, inwestując bezpośrednio w obligacje. Sednem wpisu będzie zatem wyjaśnienie tego fenomenu poprzez zaprezentowanie i zasymulowanie dynamiki zmian cen ETF-ów na obligacje na kilku ciekawych przykładach, które na potrzeby artykułu przygotowałem.
+
+
+Ten wpis, wraz z tekstem „Waluta notowań funduszu ETF nie ma żadnego znaczenia” są według mnie istotnymi dodatkami do wspomnianej wyżej serii o ETF-ach, bez których nie będziesz inwestować naprawdę świadomie. ETF-y obligacyjne, które wydawać by się mogły bezpieczną ostoją mogą w określonych warunkach przynieść Ci wysoką i trudną do odrobienia stratę, której uniknąłbyś rozumiejąc ich sposób wyceny, który w możliwie najprostszy sposób opiszę w tym artykule. Wyjaśnię tu zmienność w obydwu kierunkach, odpowiadając na pytanie „czemu cena ETF-ów obligacyjnych często ulega drastycznym i nagłym i spadkom, lub wzrostom?” zaczynając od przedstawienia problemu na historycznych wykresach cen takich ETF-ów.
+
+
+W skrócie
+Z tego artykułu dowiesz się:
+
+
+Dlaczego inwestycja w ETF obligacyjny może być bardziej ryzykowna od bezpośredniej inwestycji w obligacje.
+Jak, dlaczego i kiedy zmienia się cena obligacji skarbowych.
+Co znajduje się w składzie typowego funduszu ETF na obligacje skarbowe.
+Jak wygląda inwestycja bezpośrednia w obligacje skarbowe Stanów Zjednoczonych, a jak w ETF-a na takie obligacje.
+Powiązane wpisy
+ETF (1/6) – Co to są fundusze ETF i dlaczego warto w nie inwestować?
+ETF (2/6) – Jak wybrać ETF? Narzędzia do znajdowania i oceny ETF-ów
+Co to są obligacje i jak działają? Wyjaśnienie obligacji skarbowych i korporacyjnych
+Obligacje (1/6) – Jakie są rodzaje obligacji i czym się od siebie różnią?
+Obligacje (5/6) – Jak poprawnie inwestować w obligacje niezależnie od koniunktury?
+Skąd ta zmienność cen ETF-ów obligacyjnych?
+Wpis tego rodzaju należy zacząć od jednocześnie szerokiego, jak i zwięzłego i konkretnego przedstawienia problemu, którym jest tymczasowa (krótkoterminowa?) zmienność cen ETF-ów na papiery dłużne, czyli obligacje. W celu nie powielania zawartości bloga polecam Ci najpierw przeczytać całą serię o ETF-ach lub posłuchać podcastów, które w ramach niej nagrałem (zaczynają się od „ETF”). Powinno Ci to zająć nie więcej niż parę godzin, ale polecam naprawdę skupić się na zawartości części pierwszej, a zwłaszcza rozdziale o tym jak tworzone i jak wyceniane są jednostki funduszy ETF. Gdy już będziesz miał to za sobą, kontynuuj czytanie tego artykułu.
+
+
+Przedstawienie problemu z cenami ETF-ów na obligacje
+Nauczony doświadczeniem niemal 100 (zwykle) obszernych wpisów na blogu rozpoczynam ten tekst od przedstawienia, a raczej pokazania na wykresach problemu dużej zmienności funduszy ETF, które – przynajmniej teoretycznie – inwestują we względnie bezpieczne (mało zmienne) aktywa, jakimi są obligacje. Jeśli nie wiesz czym są papiery dłużne to koniecznie przeczytaj wpis „Co to są obligacje i jak działają? Wyjaśnienie obligacji skarbowych i korporacyjnych” oraz całą serię o obligacjach na moim blogu. Wracając do tematu: ostatnimi czasy fundusze ETF na obligacje skarbowe USA bywały bardzo zmienne. Dla przykładu: cena funduszu ETF IDTL, który inwestuje w długoterminowe obligacje skarbu państwa USA, zachowywała się ostatnimi czasy dość skocznie. Zresztą sam zobacz:
+
+
+Dlaczego ceny ETF na obligacje zmieniają się - Wykres IDTL 20 years
+Co robi fundusz IDTL? Skupuje stałoprocentowe (nie-inflacyjne) obligacje skarbowe Stanów Zjednoczonych o 30-letnich terminach zapadalności, czyli te, które w każdym momencie są najwyżej (nominalnie) oprocentowanymi obligacjami skarbu państwa USA. Dodatkowo jest to fundusz typu wypłacającego (ang. distributing), a więc otrzymane odsetki z obligacji wypłaca posiadaczom swoich jednostek w postaci dywidendy. Co zatem sprawia, że cena jego jednostek potrafi zmienić się nawet o 55% w ciągu kilkunastu miesięcy (4 USD za jednostkę w październiku 2018 roku, a 6,2 USD za jednostkę z kwietniu 2020 roku)? Fakt, że ETF-y inwestują w papiery notowane na rynku, czyli w akcje i obligacje, których cena podlega wahaniom rynkowym. Brzmi prosto, ale wcale takie nie jest, więc cały proces – swoim zwyczajem – wyjaśnię możliwie kompleksowo.
+
+
+Dlaczego ceny funduszy ETF na obligacje zmieniają się?
+Co zatem sprawia, że ceny ETF-ów na obligacje zmieniają się dynamicznie? Oto co należy zapamiętać przed kontynuowaniem lektury wpisu:
+
+
+Fundusz ETF tworzy nowe jednostki, gdy jest na nie popyt, a umarza (likwiduje) istniejące, gdy na sprzedawane jednostki nie ma chętnych po stronie kupujących. W praktyce oznacza to, że ETF „musi” kupować aktywa wg pewnego wzorca po obecnej cenie rynkowej, by zachowywać się zgodnie z obranym przez siebie planem lub strategią, czyli zwykle z indeksem, wedle którego „działa”.
+W zależności od warunków obecnych emisji obligacji podobnego rodzaju, emitowanych przez dany kraj lub firmę, ceny notowanych na rynku, historycznych obligacji zmieniają się. Gdy obecnie oferowana rentowność obligacji jest wyższa/bardziej atrakcyjna od historycznej emisji, traci ona na wartości (spada jej cena na rynku), a gdy obecnie oferowana, nowa emisja jest mniej rentowna to zyskuje ona na wartości. Udowodnię to prostym przykładem:
+W 2010 roku Nibylandia emituje obligacje 10-letnie o stałym oprocentowaniu 10% rocznie i nominale 100 zł.
+W 2011 roku Nibylandia emituje obligacje 10-letnie o stałym oprocentowaniu 5% rocznie i nominale 100 zł.
+Co dzieje się z ceną pierwszej obligacji? Czy ktokolwiek będzie chciał sprzedać ją za oryginalne 100 zł, jeśli obecnie oferowane przez Nibylandię obligacje „płacą” o 5 pp. rocznie mniej niż te pierwsze? Nie. Jej cena wzrośnie o około 40-45 zł, bo tyle wynosi różnica jej zysku wobec obecnej emisji w kolejnych 9 latach jej trwania.
+Połączmy teraz obydwa punkty: skoro ceny obligacji fluktuują, a fundusz ETF musi je zawsze kupować i sprzedawać po obecnych cenach rynkowych zgodnie z popytem i podażą na jego jednostki, to działa on zupełnie inaczej niż inwestor, który kupowałby obligacje skarbowe z zamiarem przetrzymania ich do samego końca. Różnica jest subtelna, ale bardzo istotna, gdyż inwestor indywidualny, który bezpośrednio trzyma obligacje na swoim rachunku mógłby po prostu czekać do ich dojrzałości, nigdy nie odnosząc nominalnej straty, czego ETF na nie robić niestety nie może. Zdanie to podkreśliłem, bo jest ono sednem odpowiedzi na pytanie, które postawiłem w tytule wpisu i wielokrotnie będziemy jeszcze tutaj do niego wracać.
+Wyjaśnię to w kolejnych akapitach na kilku przykładach, abyś mógł jeszcze lepiej „poczuć” na czym polega problem, ale zacznijmy od opisu bezpośredniej inwestycji w obligacje skarbowe USA. Czym są takie instrumenty, w jaki sposób można je kupić i z czym wiąże się inwestycja w nie?
+
+
+Inwestycja w obligacje skarbowe USA
+Data aukcji (ang. auction date), czyli dzień, w którym odbędzie się licytacja.
+Data emisji (ang. issue date), czyli dzień, w którym wyemitowane zostaną papiery dłużne. Występuje zwykle miesiąc lub więcej po dacie aukcji.
+Termin dojrzałości/wykupu (ang. maturity date), czyli dzień w którym obligacje zostaną wykupione przez emitenta. Logicznie następuje on zwykle po okresie trwania (czasie życia) danej emisji obligacji.
+Nominał obligacji to jej cena ofertowa, od której rozpocznie się licytacja. Zwykle jest to 100$.
+Kupon, czyli oprocentowanie obligacji będzie niezmiennym parametrem cechującym daną emisję. Tyle będzie corocznie „płacić” obligacja swojemu posiadaczowi.
+Co ciekawe, obligacje kupowane podczas licytacji mają też parametry zmienne, do których należą:
+
+
+Cena obligacji (ang. bond price) to efekt licytacji, a po emisji – fluktuacji cen papieru na rynku (giełdowym lub OTC – Over The Counter, czyli pozagiełdowym). Cena obligacji podlega wahaniom zgodnie ze stopami procentowymi oraz popytem i podażą na rynku. Rozwiniemy to w dalszej części tekstu.
+Rentowność (ang. bond yield) to wypadkowa obecnej ceny obligacji oraz jej kuponu. Dla przykładu: jaką rentowność ma roczna obligacja oprocentowana na 1%, którą kupiłeś po cenie 90%, czyli 90$ za nominał 100$? Podpowiem tylko, że jej kupon wynosi 1%, ale rentowność (brutto, bo pomijam podatek Belki) bliżej 11% ;-).
+Eksperci zawsze wspominają o „odwrotnej zależności rentowności od cen obligacji”, co większość inwestorów „wkuwa na pamięć”, nigdy nie rozumiejąc co kryje się pod tym stwierdzeniem. Tymczasem można to bardzo prosto i bez zbędnych komplikacji wyjaśnić, przedstawiając konkretny przykład. Zrozumienie ułatwi nam sprawdzenie parametrów historycznych emisji obligacji skarbowych 30-letnich, w które będzie inwestował omawiany w dalszej części wpisu ETF iShares $ Treasury Bond 20+yr UCITS, z tym, że w tym przypadku pokażę Ci z czym wiązałaby się bezpośrednia inwestycja w jedną z emisji papierów dłużnych z jego portfela.
+
+
+Historyczne emisje obligacji skarbowych
+Zanim wybierzemy sobie jedną lub dwie emisje obligacji skarbowych USA, dla których przeprowadzimy symulację inwestycji bezpośredniej, warto jest przedstawić kilka historycznych emisji o różnych parametrach. Przedstawione przeze mnie w tabeli emisje obligacji dotyczą wybranych papierów 30-letnich, czyli tzw. treasury bonds, których kupony (wartość stała) oraz ceny na rynku (wartość zmienna) składają się na ich rentowność. Nie trzeba być mistrzem algebry, by zauważyć tu pewną zależność, mianowicie im wyższy kupon, a więc lepsze warunki pierwotnej emisji, tym wyższa jest cena obligacji na giełdzie. Druga zależność jest równie widoczna, bo im kupon papieru jest bliższy rentowności obecnych emisji (nowych emisji z tego okresu), tym jego cena będzie bliższa 100%, czyli w tym przypadku 100 dolarów amerykańskich, co doskonale widać w poniższej tabeli:
+
+
+KOD ISIN (ID) emisji
+
+
+cena na rynku (30.03.2021)
+
+
+Kupon (%)
+
+
+US912810QQ40
+
+
+135,65
+
+
+4,38%
+
+
+US912810QZ49
+
+
+114,7
+
+
+3,13%
+
+
+US912810RN00
+
+
+110,15
+
+
+2,88%
+
+
+US912810RS96
+
+
+102,82
+
+
+2,5%
+
+
+US912810SL35
+
+
+92,28
+
+
+2%
+
+
+US912810SN90
+
+
+76,25
+
+
+1,25%
+
+
+Skoro znamy już szczegóły kilku historycznych emisji obligacji skarbu państwa USA to bezproblemowo możemy zasymulować sobie taką inwestycję, zakładając, że mamy możliwość ich bezpośredniego zakupu. Będzie to świetny kontekst dla dalszej części wpisu, w której wyjaśnię Ci co dzieje się z cenami ETF-a na obligacje i dlaczego czasami zmieniają się tak drastycznie i tak dynamicznie.
+
+
+Symulacja inwestycji bezpośredniej
+Na potrzeby wpisu założymy, że inwestujemy w jedną z gorszych (historycznie) emisji o kodzie ISIN US912810SN90, której szczegóły znajdziesz np. tutaj. Nazwałem ją „jedną z gorszych”, bo jak na obligację 30-letnią oferowała ona historycznie najniższe oprocentowanie (kupon) wynoszący stałe 1,25% rocznie. Zakładając, że inwestor kupił ją w dniu emisji, czyli 15 maja 2020 roku za 100%, czyli 100 USD, to jego inwestycja nie byłaby dotychczas wielkim sukcesem, tracąc prawie 25% od początku notowań:
+
+
+Dlaczego ceny ETF na obligacje zmieniają się - Wykres US912810SN90
+Pytanie brzmi jednak: czy inwestor, który kupił te obligacje 30-letnie powinien (musi?) się tym spadkiem ceny przejmować? Absolutnie nie, gdyż może je potrzymać przez pełne 30 lat, otrzymując nominał (100 USD) z powrotem od emitenta obligacji, czyli skarbu państwa USA. Powiem więcej: kupując bezpośrednio obligacje skarbowe USA większość inwestorów i tak planuje potrzymać je aż do ich okresu dojrzałości, a więc symulacja inwestycji w te obligacje wygląda następująco (zakładamy w niej ignorowanie bieżącej ceny giełdowej i ich przetrzymanie do końca):
+
+
+Dlaczego ceny ETF na obligacje zmieniają się - Wykres US912810SN90 dotrwanie do maturity
+Czy symulacja jest poprawna i naprawdę w dowolnym momencie wartość inwestycji wynosi przynajmniej 100 USD? Nie, ponieważ nie dałoby się tych papierów sprzedać na rynku za tyle pieniędzy, czego dowodzi jeden wykres wcześniej, na którym wyraźnie widać zmienność cen obligacji. Wykres jest jednak poprawny dla osoby, która zakłada przetrzymanie tych papierów aż do ich dojrzałości i ignoruje ich bieżące wyceny giełdowe. Niestety – jak zaraz udowodnię – inwestując w ETF na obligacje nie możemy po prostu „przetrzymać do końca” wszystkich ich emisji, ponieważ ETF na obligacje zmuszony jest nijako do ciągłego kupna i sprzedaży wszystkich emisji ze swojego portfela. Zanim przejdziemy do omówienia inwestycji w ETF na obligacje skarbowe USA, wyjaśnię Ci jeszcze w szczególe dlaczego cena omawianej tu emisji z maja 2020 roku spadła ostatnimi czasy tak bardzo.
+
+
+Aktualne emisje, a cena trwających emisji
+Co zatem stało się z ceną obligacji US912810SN90, która w maju 2020 roku wyemitowana została z historycznie najniższym dla 30-letnich treasury bonds kuponem wynoszącym 1,25% brutto rocznie? Odpowiedzi udzieli nam wykres aktualnej rentowności dla obligacji 30-letnich USA, który sterowany jest popytem i podażą na każdą kolejną emisję tych obligacji. Zacznijmy od wykresu dla ostatnich 10 lat, który później zestawimy z ostatnimi kilkoma miesiącami, by wyjaśnić co stało się z ceną naszych obligacji. Oto wykres historycznej rentowności obligacji 30-letnich USA, który „winny” jest spadku cen naszych obligacji:
+
+
+Co znajduje się na powyższym wykresie? Nic innego niż aktualna rentowność obligacji skarbowych USA o zapadalności 30-letniej w ujęciu brutto w procentach. Z wykresu odczytać możemy spore turbulencje (najpierw spadek z ok. 2,4% do 1,2% z początku 2020 roku, a potem wzrost z 1,2% z powrotem do 2,4% na przełomie 2020 i 2021 roku), które w oczywisty sposób musiały wpłynąć na posiadane przez nas obligacje skarbowe o kodzie ISIN US912810SN90 o rekordowo niskim rocznym kuponie. Jak wzrost rentowności nowych emisji obligacji 30-letnich USA wpłynął na cenę naszych obligacji? Być może zdziwisz się, widząc niemalże lustrzane odbicie i idealnie odwrotną zależność ceny trwającej emisji (granatowy, lewa oś pionowa) do kierunku zmian rentowności tych nowych (pomarańczowy, prawa oś):
+
+
+Wybierzmy i omówmy dowolne trzy punkty czasu na powyższej osi, dla przykładu:
+
+
+1 lipca 2020 roku aktualna rentowność emisji obligacji 30-letnich wynosiła około 1,43% brutto rocznie, czyli nieco więcej niż wynosi kupon omawianych tu obligacji (1,25%), stąd ich cena wynosiła wtedy 95% początkowej wartości.
+1 listopada 2020 roku aktualna rentowność emisji obligacji 30-letnich wynosiła około 1,63% brutto rocznie, czyli o prawie 0,4 pp. więcej niż wynosi kupon omawianych tu obligacji (1,25%), stąd ich cena wynosiła wtedy 91% początkowej wartości.
+1 marca 2021 roku aktualna rentowność emisji obligacji 30-letnich wynosiła około 2,28% brutto rocznie, czyli o ponad 1 pp. więcej niż wynosi kupon omawianych tu obligacji (1,25%), stąd ich cena wynosiła wtedy 79% początkowej wartości.
+Zasada jest bardzo prosta: inwestor liczy o ile (w przybliżeniu) więcej lub mniej zarobi kupując konkretne historyczne emisje, wobec obecnej, która zawsze kosztuje 100% i wycenia tę historyczną na mniej, lub więcej od obecnej, w zależności od jej warunków stałych (oprocentowania, czyli kuponu). Problem inwestowania w ETF-y na obligacje, który Ci teraz wyjaśnię polega na tym, że nie da się „doczekać do końca wszystkich emisji, które te posiadają”, bo ciągle (niezależnie od ceny) kupowane są nowe emisje. W kolejnym rozdziale omówię więc szczegółowo inwestycję w ETF na obligacje skarbowe.
+
+
+Zakup ETF-a na obligacje skarbowe USA
+Podobnie jak ETF akcyjny, który podąża za określonym indeksem akcji, tak ETF obligacyjny podąża za konkretnym indeksem obligacji. Znaczącą różnicą między światem akcji, a obligacji jest jednak to, że ceny trwających (historycznych) emisji obligacji na giełdzie „dostosowują się” do każdej kolejnej emisji, by uniemożliwić inwestorom dokonywania arbitrażu cenowego. Oznacza to mniej więcej tyle, że wraz z czasem trwania swojego istnienia, ETF na obligacje „bezmyślnie” kupuje każdą kolejną emisję obligacji skarbowych danego kraju o danym okresie dojrzewania (długości), stając się de facto jedną wielką obligacją o konkretnej rentowności, będącej średnią ważoną papierów z jego portfela.
+
+
+Kupując ETF na obligacje skarbowe musimy być świadomi, że często kupujemy „lepsze” od obecnej historyczne emisje takich papierów, płacąc za to sowitą premię ich posiadaczom. Pamiętasz jeszcze metodę NAV (opisałem ją we wpisie „ETF (1/6) – Co to są fundusze ETF i dlaczego warto w nie inwestować?„), zgodnie z którą aktualna cena ETF-a to nic innego jak aktualna cena jego aktywów? Oznacza to niestety, że ETF na obligacje może podlegać bardzo dużym wahaniom cen i nie da się „wyczekać” go do jego dojrzałości (patrz: poprzedni rozdział wpisu, w którym inwestor po prostu „poczekał” do końca cyklu życia mało rentownej i przecenionej na giełdzie obligacji). ETF na obligacje, ze swojej natury, nie ma określonego czasu trwania i będzie (zgodnie z popytem na swoje jednostki) kupował określoną liczbę każdej kolejnej emisji dłużnych papierów wartościowych. Zrozumiesz to, gdy przedstawię Ci skład przykładowego funduszu ETF na obligacje skarbowe Stanów Zjednoczonych.
+
+
+Skład ETF-a na obligacje skarbowe
+Wybranym przeze mnie ETF-em na obligacje skarbowe będzie iShares $ Treasury Bond 20+yr UCITS ETF z uwagi na to, że jako fundusz na obligacje o najdłuższej zapadalności będzie najmocniej reagował na zmiany ich rentowności. Aby prosto wyjaśnić i zaprezentować Ci co znajduje się „pod maską” takiego ETF-a przygotowałem wykres bąbelkowy, na którym przedstawię Ci wagę emisji z danego roku w portfelu omawianego funduszu ETF. Jak czytać wykres? Wielkość (średnica) koła oznacza wagę danej emisji w portfelu ETF-a, czyli im większe koło, tym więcej danej emisji ma w portfelu ETF. Pozycja na osi x oznacza rok emisji obligacji, zaś pozycja na osi y oznacza jej nominalne oprocentowanie, czyli kupon. Omawiany ETF posiada około 50 różnych emisji, co przejawia się sporą liczbą kół na wykresie:
+
+
+Jako, że ten format prezentacji danych może nie przemawiać do wszystkich czytelników to postanowiłem przedstawić to samo w nieco innej formie. Na kolejnym wykresie granatowe koła oznaczają udział emisji z danego roku w portfelu funduszu ETF, zaś pomarańczowe słupki to średnie oprocentowanie (wartość kuponu) dla wszystkich emisji z danego roku. Wykres ten – moim zdaniem – świetnie pokazuje prawdę o strukturze składu ETF-a na obligacje skarbowe USA o najdłuższych terminach zapadalności i warto mu się chwilę przyjrzeć przed kontynuacją lektury tego wpisu:
+
+
+Skoro fundusz ETF kupuje „jak leci” wszystkie kolejne emisje obligacji 30-letnich USA to w długim terminie sam staje się właśnie taką obligacją (o mieszanej proporcji, a więc mieszanym kuponie i cenie na giełdzie). Lekko problematyczne jest w tym przypadku tworzenie nowych jednostek, gdyż fundusz robi to wtedy, gdy jest na to popyt, a skoro arbitraż na giełdzie obligacji jest trudny, jeśli nie niemożliwy to najprościej jest kupować zwykle najbardziej płynne – najnowsze emisje. Sprawia to, że w portfelu funduszu mamy nierówne proporcje emisji, co na wykresie przejawiało się różną wysokością granatowych kół (np. emisje z 2020 roku stanowią 15,4% portfela, zaś emisje z 2012 roku tylko 5,6% portfela).
+
+
+By wyjaśnić Ci dlaczego ceny funduszy ETF na obligacje zmieniają się dynamicznie zmuszony będę teraz stworzyć uproszczony model portfela takiego ETF-a, który operuje tylko przez 8 lat (2017-2024) i w rzeczywistości nie istnieje. Tym wymyślonym rynkiem obligacji będę sterował ja, tworząc różne scenariusze zmiany rentowności przyszłych emisji, by pokazać Ci w jaki sposób oddziałują one na ceny funduszu ETF na obligacje. Przykład posiadał będzie masę przybliżeń (bloga piszę sam i niekiedy brakuje mi za sobą sztabu naukowców), ale relacje, które zaprezentuję da się zaobserwować w prawdziwym życiu i na pewno nie są wyssane z palca. Zacznijmy od opisu modelu i jego przybliżeń.
+
+
+Uproszczony model portfela funduszu ETF
+Załóżmy, że w moim przykładzie również inwestujemy w obligacje 30-letnie wymyślonego kraju, a mój fundusz ETF istnieje od 2017 roku i inwestuje w kolejne emisje obligacji (raz do roku) w sposób proporcjonalny. Oznacza to, że kreacja nowych jednostek przebiega w sposób stały, a ten wymyślony fundusz ETF ma komfort w postaci możliwości dokupywania każdej kolejnej emisji w sposób proporcjonalny. Oznacza to, że w pierwszym roku (2017) fundusz ten posiadać będzie 100% obligacji z 2017 roku, a w roku trzecim (2019) będzie on miał po 33,(3)% w obligacjach z lat 2017, 2018 i 2019. Załóżmy, że w latach 2017-2020 oprocentowanie (czyli kupon) kolejnych emisji spadał zgodnie z wartościami z tabeli poniżej:
+
+
+Rok emisji
+
+
+Udział
+
+
+Oprocentowanie
+
+
+2017
+
+
+25%
+
+
+5%
+
+
+2018
+
+
+25%
+
+
+4%
+
+
+2019
+
+
+25%
+
+
+3%
+
+
+2020
+
+
+25%
+
+
+2%
+
+
+Podkreślę raz jeszcze, że fundusz ETF i same obligacje są na potrzeby przykładu zmyślone i nie dotyczą żadnego konkretnego kraju. Zakładamy, że są to obligacje skarbowe 30-letnie jedynie w celu lepszej estymacji wpływu zmian rentowności kolejnych emisji papierów dłużnych tego kraju na cenę jednostek ETF-a. Jak przebiegać będzie sama symulacja? Założymy sobie dwa odmienne scenariusze rozwoju sytuacji, w którym rentowność przyszłych emisji będzie spadać (scenariusz optymistyczny) i rosnąć (scenariusz pesymistyczny), szczegółowo omawiając każdy z nich.
+
+
+Symulacja inwestycji w ETF na obligacje
+Skoro oprocentowanie 5%, 4%, 3%, 2% dla w latach 2017, 2018, 2019 i 2020 dotyczyć będzie obydwu przykładów to zmienne będą kupony kolejnych emisji, czyli tych z lat 2021-2024. W prawdziwym świecie rentowności obligacji skarbowych zależą głównie od ich oprocentowania nominalnego (zwykle dyktowanego wartościami stóp procentowych) oraz popytu na te obligacje w licytacjach. Można więc założyć, że w scenariuszu pierwszym będziemy mieli do czynienia z powolnym obniżaniem wartości stóp procentowych, zaś w przypadku drugim z ich podnoszeniem. Dla każdego z przykładów załączę podobną tabelę, podstawiając pod „zależy od scenariusza” konkretne wartości kuponów (a więc oprocentowania) przyszłych emisji obligacji tego nieistniejącego państwa:
+
+
+Rok emisji
+
+
+Udział
+
+
+Oprocentowanie
+
+
+2017
+
+
+12,5%
+
+
+5%
+
+
+2018
+
+
+12,5%
+
+
+4%
+
+
+2019
+
+
+12,5%
+
+
+3%
+
+
+2020
+
+
+12,5%
+
+
+2%
+
+
+2021
+
+
+12,5%
+
+
+zależy od scenariusza
+
+
+2022
+
+
+12,5%
+
+
+zależy od scenariusza
+
+
+2023
+
+
+12,5%
+
+
+zależy od scenariusza
+
+
+2024
+
+
+12,5%
+
+
+zależy od scenariusza
+
+
+Nie przedłużając – zacznijmy zatem od scenariusza pozytywnego, w którym kolejne emisje obligacji skarbowych 30-letnich będą coraz gorzej oprocentowane. W tym przypadku fundusz ETF będzie zyskiwał na wartości z uwagi na swoje bardziej atrakcyjne oprocentowanie niż to aktualnie dostępne na rynku.
+
+
+Scenariusz pozytywny (spadek rentowności)
+Choć wartości kuponów z tego przykładu są zmyślone i z całą pewnością nie dotyczą prawdziwych oprocentowań obligacji skarbowych 30-letnich skarbu państwa USA to przykład ten jest nieco zbliżony do okresu zakończonego w maju 2020 roku. Mieliśmy wtedy do czynienia z tzw. cięciem stóp procentowych, które objawiało się spadkiem oprocentowania kolejnych emisji obligacji. W naszym przykładzie spadek ten będzie dosyć powolny, w kolejnych latach spadając o 0,5% (2021 – 1,5%; 2022 – 1,0%; 2023 – 0,5%), a następnie w 2024 roku o 0,25%, kończąc ostatni rok symulacji na poziomie 0,25%:
+
+
+Rok emisji
+
+
+Udział
+
+
+Oprocentowanie
+
+
+2017
+
+
+12,5%
+
+
+5%
+
+
+2018
+
+
+12,5%
+
+
+4%
+
+
+2019
+
+
+12,5%
+
+
+3%
+
+
+2020
+
+
+12,5%
+
+
+2%
+
+
+2021
+
+
+12,5%
+
+
+1,5%
+
+
+2022
+
+
+12,5%
+
+
+1%
+
+
+2023
+
+
+12,5%
+
+
+0,5%
+
+
+2024
+
+
+12,5%
+
+
+0,25%
+
+
+Skoro fundusz ETF kupuje po równo obligacji z każdego kolejnego roku to kończymy okres 8-letni z 12,5% w każdej z emisji obligacji o oprocentowaniach od 0,25% do 5%. Z każdym kolejnym rokiem spadał więc średni kupon (dywidenda) tego funduszu ETF, ale przez cały okres inwestycji była ona wyższa od rentowności kolejnych emisji, co oznacza, że obligacje w jego portfelu drożały tym bardziej, im lepiej oprocentowane były od nowo emitowanych przez skarb tego nieistniejącego państwa obligacji, sprawiając, że różnica oprocentowań w 2024 roku była już naprawdę spora i wynosiła prawie 2 pp.:
+
+
+Póki co omówiliśmy jedynie średnie oprocentowanie obligacji, które nasz ETF ma w portfelu i ich (równe) proporcje. W całym równaniu zupełnie brakuje nam reakcji funduszu na zmiany warunków kolejnych emisji w postaci zmiany ceny jego jednostek. W tym miejscu zastrzegam, że nie jestem profesjonalistą w zakresie wyceny obligacji, więc ceny, które naniosłem na wykres są mocno umowne i przybliżone wg skonstruowanego przeze mnie „roboczego wzoru” na wycenę funduszu ETF. Mimo to, muszę powiedzieć, że z efektów jego działania jestem dosyć zadowolony i uważam, że wystarczająco dobrze aproksymuje on prawdziwe zmiany cen jednostki ETF-a na obligacje 30-letnie rodzaju distributing, a więc takiego, który otrzymane odsetki wypłaca posiadaczowi jednostek, a nie reinwestuje. Inwestor, który w latach 2017-2024 trzymałby na rachunku jednostki takiego ETF-a osiągnąłby bardzo wysoki, bo wynoszący aż 57% zwrot z samej zmiany cen jego jednostek, co doskonale widać na wykresie poniżej:
+
+
+
+
+Powyższy przypadek jest dla inwestora bardzo korzystny, ale nie należy zapominać, że przy tak niskich, bo wynoszących 0,25% rentownościach nowych emisji, ich przyszły kierunek zmian jest w zasadzie tylko jeden: w górę. Co stałoby się gdyby inwestor nie sprzedał w 2024 roku z zyskiem jednostek takiego ETF-a, a zamiast tego trzymałby je na rachunku, gdy stopy procentowe lub niski popyt ze strony inwestorów biorących udział w licytacjach skarbowych, sprawiłyby, że rentowność obligacji poszłaby stanowczo w górę?
+
+
+Ucieczka przy niskiej rentowności. Scenariusz stabilizujący.
+Sytuacja, którą przedstawię na kolejnym wykresie zakłada zmianę kierunku zmian rentowności obligacji 30-letnich omawianego kraju, a więc jej nagły wzrost. W scenariuszu lat 2025 i 2026 założymy, że oprocentowanie nowych emisji wyniesie 1,00%, a następnie 2,50%, sprawiając, że średnie oprocentowanie papierów w portfelu funduszu ETF z bardzo atrakcyjnego w roku 2024 (2,16% wobec 0,25% na rynku) stanie się w roku 2026 raczej mało atrakcyjne (2,08% wobec 2,50% na rynku). Sprawi to, rzecz jasna, że cena jednostki ETF-a spadnie w bardzo dynamiczny sposób, co przedstawiłem na kolejnym wykresie:
+
+
+Co stało się w latach 2025 i 2026 i czy inwestorzy powinni się tym przejmować? Jeśli inwestujesz długoterminowo, dokupując ETF-y na akcje i obligacje w określonych proporcjach to myślę, że możesz potraktować ten wykres jako ciekawostkę. Jeśli natomiast masz ambicję inwestować bardziej aktywnie to podstawą jest zrozumienie, że kupowanie i trzymanie jednostek ETF-a na obligacje skarbowe w erze rekordowo niskich stóp procentowych, a więc także rekordowo niskich kuponów obecnych emisji, może być niebezpieczne. Skąd wziął się ów spadek cen? Jego źródło było identyczne z tym, przez które cena jednostki ETF-a rosła w latach 2017-2020, a była nim atrakcyjność historycznych emisji obligacji, które ten fundusz miał wtedy w portfelu.
+
+
+Zasada jest tutaj bardzo prosta: im dłużej istnieje fundusz ETF na obligacje skarbowe, tym więcej różnych emisji będzie on miał w swoim portfelu, w pewnym sensie redukując ryzyko poprzez uśrednienie swojego oprocentowania. Nie zmieni to faktu, że średnie oprocentowanie obligacji w portfelu ETF-a poniekąd „konkuruje” z każdą kolejną emisją obligacji danego typu, sprawiając, że jego cena wzrośnie lub spadnie z każdą zmianą rentowności nowych emisji. Skoro przypadek pozytywny już mamy omówiony to pora przejść do takiego, w którym zawartość portfela ETF-a obligacyjnego staje się z perspektywy rynku z czasem nie coraz bardziej, a coraz mniej atrakcyjna.
+
+
+Scenariusz negatywny (wzrost rentowności)
+Zanim omówimy scenariusz negatywnego (dla posiadaczy jednostek ETF-a) rozwoju sytuacji warto przypomnieć jak zmieniały się kupony kolejnych emisji w scenariuszu pozytywnym. Było to – odpowiednio – 2% -> 1,5% -> 1% -> 0,5% -> 0,25%. W scenariuszu negatywnym zmienię to na 2% -> 4% -> 5% -> 6% -> 7%, by pokazać Ci w możliwie drastyczny sposób jak objawia się ryzyko inwestycji w fundusz ETF na te bezpieczne aktywa (wróć do przykładu inwestycji bezpośredniej i przypomnij sobie, że papier dłużny można trzymać aż do jego dojrzałości, nigdy nie notując nominalnej straty na giełdzie). Cały scenariusz, czyli lata 2017-2024 będą w tym przypadku wyglądały dla inwestora następująco:
+
+
+Rok emisji
+
+
+Udział
+
+
+Oprocentowanie
+
+
+2017
+
+
+12,5%
+
+
+5%
+
+
+2018
+
+
+12,5%
+
+
+4%
+
+
+2019
+
+
+12,5%
+
+
+3%
+
+
+2020
+
+
+12,5%
+
+
+2%
+
+
+2021
+
+
+12,5%
+
+
+4%
+
+
+2022
+
+
+12,5%
+
+
+5%
+
+
+2023
+
+
+12,5%
+
+
+6%
+
+
+2024
+
+
+12,5%
+
+
+7%
+
+
+Gdybym zupełnie nie znał się na metodzie wyceny i działania funduszy ETF na obligacje to powyższą tabelę oceniłbym raczej pozytywnie. Czy inwestor nie powinien radować się, widząc, że kolejne emisje obligacji 30-letnich, które zresztą kupuje jego fundusz ETF, stają się coraz lepiej oprocentowane? Wszystko byłoby „cacy”, gdyby inwestor kupował bezpośrednio kolejne emisje obligacji i trzymał je wszystkie aż do ich dojrzałości, ale fundusz ETF przecież tego nie robi (gdyż działa nieustannie i nigdy się nie kończy). Sprawia to, że choć w latach 2017-2020, podobnie jak w scenariuszu pozytywnym, fundusz ETF jest łakomym kąskiem dla łowców wysokich odsetek, to w latach 2021-2024 fakt, że posiada on stare (gorzej oprocentowane) emisje, sprawia, że zaczyna on „przegrywać” pod względem kuponów z nowymi emisjami obligacji. Zjawisko to doskonale widać na poniższym wykresie:
+
+
+Jak zachowa się cena jednostki ETF-a w chwili, gdy oferował on będzie oprocentowanie wynoszące 4,5% brutto rocznie na kolejne 30-lat wobec nowej emisji obligacji, która oferuje aż 2,5 pp. więcej, czyli 7% brutto rocznie? W tym przypadku rynek będzie bezlitosny, ściągając cenę jednostki ETF-a drastycznie w dół. Nie trzeba być mistrzem algebry, by szybciutko obliczyć na ile bardziej rentowny w okresie 30-letnim będzie bezpośredni zakup nowej emisji obligacji od zakupu jednostki ETF-a, który w swoim portfelu posiada mnóstwo gorzej oprocentowanych (a więc także przecenionych na rynku) emisji. Mój (roboczy i prymitywny) wzór określił, że cena jego jednostki spadnie z 145 jednostek waluty (ETF 3,5% brutto rocznie, aktualna emisja 2% brutto rocznie) do 88 w roku 2021 (ETF 3,60% brutto rocznie, aktualna emisja 4% brutto rocznie), ale prawdziwy problem pojawi się wraz z dalszym wzrostem rentowności nowych emisji obligacji, czego nie da się nie zauważyć na wykresie poniżej:
+
+
+Czy w prawdziwym życiu możemy zaobserwować zmianę ceny jednostki ETF-a z 145 do 25 jedynie z uwagi na wzrost rentowności nowych emisji z 2% do 7% w ciągu kilku lat? Powiedziałbym, że to mało prawdopodobne, gdyż ETF-y nie kupują każdej emisji proporcjonalnie, a zgodnie z prawem popytu (kreacja nowych jednostek) i podaży (likwidacja istniejących jednostek). Dodatkowo: w prawdziwym życiu rzadko obserwujemy tak drastyczne zmiany oprocentowań nowych emisji w tak krótkim czasie, więc powyższy przykład możemy uznać za ciekawostkę, która miała nauczyć relacji między rentownością, a ceną obligacji. Nasz ETF jest więc taką „pamiętającą historię obligacją”, która z czasem uśrednia swój kupon, zbliżając się do długoterminowego trendu zmian rentowności papierów dłużnych. Na pocieszenie zdecydowałem się pokazać co stałoby się z ceną jednostek tego funduszu, gdyby kolejne emisje byłyby coraz gorzej oprocentowane.
+
+
+Dlaczego nie panikować? Scenariusz stabilizujący
+W inwestowaniu chodzi przede wszystkim o to, by zachować zimną krew i rozumieć procesy zachodzące na rynku. Cierpliwy inwestor, gdyby tylko przeczekał czas, gdy jego ETF mocno traciłby na wartości i „doczekał” czasów spadku rentowności nowych emisji, zaobserwowałby rychły powrót ceny jednostek ETF-a do ich zwykłych poziomów. Zakładając scenariusz 7% -> 5% -> 4% w latach 2024, 2025 i 2026, inwestor stałby się na powrót posiadaczem ETF-a o bardziej atrakcyjnym oprocentowaniu (4,5%) niż to dotyczące nowej emisji (4%). W takim – czysto hipotetycznym – przykładzie, cena jednostki ETF-a wraca z 25 do 87, a potem „nad kreskę” do 115 jednostek waluty zgodnie z wykresem poniżej:
+
+
+Czym zatem jest sytuacja, gdy stopy procentowe i popyt na obligacje są bardzo chwiejne? Zazwyczaj stanowi ona okazję dla spekulanta, który wprawnym okiem zwietrzył spadek stóp procentowych, ale dla inwestora długoterminowego, który aktywa kupuje po każdej cenie i nie bardzo interesują go takie anomalie rynkowe, będzie ona już tylko „efektem ubocznym”, który może zignorować, stale dokupując jednostki ETF-a. Z czego wynika więc problem z bardzo dynamicznymi zmianami cen funduszy ETF na obligacje, które ostatnimi czasy (rok 2019, 2020 i 2021) obserwujemy na rynkach? Kilka poszlak to:
+
+
+Im dłuższy jest okres życia/czas trwania obligacji, tym drastyczniej na ich ceny wpływa zmiana rentowności kolejnych (nowych) emisji obligacji tego samego typu. Sprawiło to, że w erze niskich stóp procentowych, najwyżej oprocentowane obligacje 30-letnie tworzyły najbardziej ryzykowne ETF-y na obligacje.
+Im dynamiczniej zmieniają się stopy procentowe/rentowność obligacji, tym dynamiczniej będzie zmieniać się cena jednostki ETF-a, który w nie inwestuje.
+Im dłużej ETF działa na rynku, tym więcej różnych emisji obligacji ma w swoim składzie, co w efekcie lepiej „uśrednia” ich oprocentowanie, redukując ryzyko dynamicznego spadku lub wzrostu ceny jego jednostek. Warto o tym pamiętać, dokonując inwestycji w ETF na obligacje.
+Paradoksalnie ETF na obligacje skarbowe typu distributing może okazać się lepszym/bezpieczniejszym wyborem niż ETF na obligacje skarbowe typu accumulating. Dlaczego? Powód jest prosty: fundusz rodzaju akumulującego musi „automatycznie” kupować za odsetki każdą kolejną emisję, niekoniecznie w czasie, kiedy jest to dla inwestora optymalne. Można by o tym pisać papiery naukowe, a ja chciałbym powoli kończyć ten wpis, więc pozostawię to tylko jako luźną myśl do rozpoczęcia dyskusji pod wpisem.
+Jaki jest zatem największy problem wywołujący dużą zmienność cen jednostek ETF-ów na obligacje? Jest to według mnie fakt, że uśrednia on oprocentowanie obligacji „pod spodem” zawsze kupując kolejne emisje i to, że nigdy „się on nie kończy”, a więc nie można – jak w przypadku inwestycji bezpośredniej – po prostu zaczekać do dojrzałości danej emisji obligacji. Wyjaśnię to w kolejnym akapicie, gdzie wreszcie znajdziemy winnego całego zajścia.
+
+
+Problem? Uśrednianie rentowności ETF-a
+ETF na obligacje jest taką „wielką obligacją” o rentowności wynikającej ze średniej ważonej obligacji w jego portfelu. Ludzkim językiem: ETF na obligacje z biegiem lat uśrednia rentowność obligacji w swoim portfelu, przez co jego cena waha się wobec rentowności obecnych emisji obligacji, które ten swoją drogą również kupuje. Jest to zarówno siła, jak i słabość tego rodzaju ETF-ów, którą należy zrozumieć przed dokonaniem inwestycji w to – wydawać by się mogło – bezpieczne aktywo. Pocieszę Cię jednak, że jest pewne remedium na ryzyko wynikające ze zmienności cen ETF-ów na obligacje – chodzi tu (uwaga, uwaga!) o regularne dokupywanie jego jednostek, a więc uśrednianie cen zakupu.
+
+
+Podobnie jak w przypadku kupowania ETF-ów na akcje – w długim terminie nie ma nic lepszego niż regularne zakupy ETF-ów na obligacje. Tak zachowa się inwestor pasywny, ale jest też (wg mnie lepsza) opcja inwestowania aktywnego w ETF-y. Nawiążę teraz do wpisu „Jak przygotować portfel inwestycyjny do emerytury?„, w którym opisałem aktywny sposób zarządzania portfelem ETF-ów akcyjnych, których można nie kupować np. powyżej określonego współczynnika C/Z (wyceny) indeksu. Analogicznie: ETF-ów na obligacje można świadomie nie kupować (lub sprzedawać je, jak sam postąpiłem, opisując to w artykule „Obligacje (6/6) – Spekulacja na obligacjach czyli ciemna strona obligacji„) w warunkach bardzo niskiej rentowności aktualnych emisji takich papierów. Wyjaśnię ten sposób w kolejnym, ostatnim już, akapicie tekstu, podając Ci kilka przykładów.
+
+
+Jak uniknąć strat inwestując w ETF na obligacje?
+W inwestowaniu w ETF-y na długoterminowe obligacje skarbowe problemem jest różnica między średnią rentownością obligacji w portfelu ETF, a rentownością obligacji tego samego typu, które są aktualnie emitowane na rynku. Oznacza to, że naszym przeciwnikiem (lub sprzymierzeńcem, jeśli świadomie spekulujemy) jest tutaj perspektywa dużej dynamiki zmiany rentowności, która zawsze „huśta” ceną takiego ETF-a. Podrzucę Ci na sam koniec wpisu przykłady zachowań (zagrań?), do których może posunąć się świadomy inwestor aktywny (temu pasywnemu sugeruję to zignorować i po prostu dokupywać jednostki ETF-a w długim terminie po różnych cenach):
+
+
+Jeśli średnia rentowność obligacji w portfelu ETF-a jest wyższa niż rentowność aktualnych emisji obligacji, ale istnieje jeszcze potencjał (miejsce) do jej spadku to spodziewaj się wzrostu ceny ETF-a. Dokładnie to zrobiłem w ramach wpisu „Obligacje (6/6) – Spekulacja na obligacjach czyli ciemna strona obligacji” spodziewając się cięć dolarowych stóp procentowych.
+Jeśli średnia rentowność obligacji w portfelu ETF-a jest wyższa niż rentowność aktualnych emisji obligacji, a ich rentowność nie ma zbytnio potencjału (miejsca) do spadku, to spodziewaj się spadku ceny ETF-a. Ten scenariusz zrealizował się na początku roku 2021 na amerykańskich obligacjach skarbowych (patrz: wykres z początku wpisu).
+Jeśli średnia rentowność obligacji w portfelu ETF-a jest niższa niż rentowność aktualnych emisji obligacji, ale istnieje jeszcze potencjał (miejsce) do jej wzrostu, to spodziewaj się spadku ceny ETF-a.
+Jeśli średnia rentowność obligacji w portfelu ETF-a jest niższa niż rentowność aktualnych emisji obligacji, a ich rentowność nie ma zbytnio potencjału (miejsca) do wzrostu, to spodziewaj się wzrostu ceny ETF-a. Ten scenariusz jest najtrudniejszy do przewidzenia, ale potencjalnie najbardziej zyskowny, bo cena ETF-a zwykle „szoruje tutaj po dnie” i każdy spadek rentowności nowych emisji będzie powodował spory jej wzrost.
+Warto też uniknąć pułapek w postaci myślenia życzeniowego:
+
+
+Rentowność obligacji wcale nie musi dynamicznie rosnąć lub spadać. Bywały okresy kilku-, a nawet kilkudziesięcioletnie, w których rentowności obligacji utrzymywały się na podobnych poziomach.
+Pamiętaj, że ETF uśrednia rentowność obligacji, kupując ich wszystkie nowe emisje. Oznacza to, że nawet bez zmiany rentowności kolejnych emisji, jego cena (zakładając typ distributing, a więc ten wypłacający otrzymane odsetki w postaci dywidend) będzie dążyć do 100%, czyli ceny bazowej.
+Inwestowanie aktywne wiąże się z ryzykiem zablokowania sobie ruchów nawet na lata. Podobnie jak w przypadku „wychodzenia z rynku akcji przy wysokim C/Z” blokujemy sobie czasem potencjał wzrostu, tak i przy „nie kupowaniu obligacji przy ich niskich rentownościach” możemy być poza rynkiem przez lata, a nawet dekady.
+Mam nadzieję, że wpis ten rzucił trochę światła na sposób kreacji i wyceny jednostek ETF-ów na obligacje, który poza zrozumieniem waluty notowań funduszy ETF (patrz: „Waluta notowań funduszu ETF nie ma żadnego znaczenia„) jest chyba najgorzej rozumianym wątkiem w dziedzinie inwestowania w ETF-y. Jestem niezwykle zadowolony, że udało mi się dokonać kilku fajnych (acz dalekich od ideału) symulacji, które powinny pomóc Ci w zrozumieniu fenomenu dużych zmian cen teoretycznie bezpiecznych funduszy ETF. Jeśli ten wpis okazał się dla Ciebie przydatny to będę zobowiązany gdy założysz konto maklerskie z jednego z linków/przycisków poniżej, czym znacząco wesprzesz moją działalność blogerską:
+
+
+Potrzebujesz taniego konta maklerskiego do inwestowania?
+
+
+Kliknij, by założyć konto z 0% prowizją transakcyjną w XTB!
+Potrzebujesz lepszej oferty ETF-ów lub chcesz założyć maklerskie IKE/IKZE?
+
+
+Kliknij, by założyć eKonto i eMaklera/IKE/IKZE w mBanku!
+Instrukcja zakładania i obsługi konta eMakler
+
+
+Oferowane instrumenty finansowe, zwłaszcza z dźwignią, niosą ryzyko strat przekraczających zainwestowany kapitał.
+
+
+Podsumowanie
+Na tym etapie powinieneś już doskonale rozumieć co sprawiło, że ostatnimi czasy niektóre fundusze ETF na obligacje skarbowe straciły nawet 15-20% swojej wartości i zrozumieć jak można z tym walczyć w długim terminie na sposób aktywny, lub na sposób pasywny. Mój własny wybór, który zresztą opisałem we wpisie „Jak rozegrać giełdy pod koniec 2020 roku? Portfel na IV kwartał 2020 roku„, polega na tym, że sprzedałem większość (a niewiele później wszystkie) moje zagraniczne obligacje skarbowe. W innym wpisie, zatytułowanym „Obligacje (6/6) – Spekulacja na obligacjach czyli ciemna strona obligacji” opisałem kilka spekulacyjnych ruchów na ETF-ach na obligacje skarbowe, które wykonałem, gdy spodziewałem się dalszego cięcia stóp procentowych w największych gospodarkach świata. Mam wielką nadzieję, że ten wpis rzucił światło na skomplikowany proces wyceny ETF-ów na obligacje i będzie on więcej niż przydatny w Twoim codziennym inwestowaniu. Jeśli wpis się podobał lub masz jakieś wątpliwości to koniecznie skomentuj pod wpisem, gdyż dyskusja to główna siła mojego bloga (i mam nadzieję, że tak już zostanie). Do następnego!
+
+
+Chcesz być na bieżąco? Zapisz się do mojego newslettera:

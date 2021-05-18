@@ -1,0 +1,61 @@
+﻿5 NAJCZĘSTSZYCH BŁĘDÓW PRZY PISANIU TESTÓW
+Temat testów przewija się jako podstawowe zagadnienie we wszystkich tematach związanych z jakością kodu. Nikt nie mówi z dumą, że nie pisze testów. Zawsze brak testów jest przedstawiony jako wada danego projektu. Dyskutujemy o tym na forach. Czytamy książki na ten temat. Słuchamy na konferencjach wystąpień grzmiących, że nie pisząc testów idziemy do piekła.
+
+
+Ale czy sam fakt posiadania testów już sprawia, że jesteśmy bezpieczni i możemy się chwalić, że testujemy? Czy pamiętamy o tym po co te testy piszemy i przygotowujemy je w taki sposób żeby faktycznie dawały wartość? A może popełniamy któreś z tych 5 błędów?
+
+
+1. Tylko testy jednostkowe
+Zaczynamy łagodnie. Błąd wynikający częściowo z powszechnej, uproszczonej narracji, a częściowo z niejasnego podziału odpowiedzialności. Nie jest on poważny bo nie powoduje, że testy nas wprowadzają w błąd albo nie dają wartości.
+
+
+W tym punkcie chodzi o to, że nieraz myśląc o testach mamy tak naprawdę na myśli tylko testy jednostkowe. Ignorujemy inne rodzaje testów, które także dają pogląd na to co dzieje się z naszym projektem. Zaczynając od testów integracyjnych po testy end-to-end czy testy mutacyjne albo smoke testy. Bo sam fakt, że jakaś jednostka działa nie daje nam 100% gwarancji, że w połączeniu z resztą i po uruchomieniu w rzeczywistym środowisku wszystko nadal będzie stabilne.
+
+
+Jeżeli mamy w zespole testerów automatycznych to jasne, że ich rolą jest przygotowanie testów, które będą „klikać” w aplikacji. Jednak nadal możemy zadbać o szersze testowanie naszego kodu albo konsultować się z tymi testerami tak żebyśmy wspólnie pokryli jak najwięcej przypadków.
+
+
+2. Pokrycie? 100%
+I płynnie przechodzimy do pokrycia kodu testami. Dużym błędem, który popełnia nadal sporo zespołów, jest próba osiągnięcia 100% pokrycia kodu testami. Mamy narzędzia, które to monitorują. Mamy książki, które mówią żeby to pokrycie zwiększać. Tylko zapominamy, że testować powinniśmy to co faktycznie przetestowane być powinno. Bo kiedy zespół zaczyna dążyć do tych 100% to okazuje się w pewnym momencie, że testowane zaczynają być nawet metody, które jedyne co robią to zwracają jakąś wartość z pola albo ją ustawiają.
+
+
+Testy powinny przynosić wartość. I tą wartość przynoszą w momencie kiedy sprawdzają logikę, która jest dla nas istotna. Więc powinniśmy się skupiać na jakości testów, a nie tylko ich ilości.
+
+
+Dążąc do 100% pokrycia z jednej strony w ogóle nie gwarantujemy, że te testy dadzą nam poprawną informację. Bo możemy mieć 100% pokrycia testami, które niczego nie sprawdzają. Po drugie pisząc takie testy, które pokryją nawet najdrobniejszy fragment kodu musimy często naprawdę mocno kombinować. I kończymy z testami, które testując każdą metodę i każde pole w klasie są tak ciężkie w utrzymaniu, że albo trudno będzie nam je poprawiać po zmianach albo kod, który testują będzie nie do ruszenia jeżeli nadal będziemy chcieli uruchamiać testy i mieć je „zielone”.
+
+
+3. Betonowe testy
+Często ten problem wynika z poprzedniego czyli z chęci pokrycia testami 100% kodu. Ale nie zawsze. Betonowe testy da się napisać nawet mając ich bardzo mało. O co więc chodzi?
+
+
+Wyobraź sobie sytuację kiedy zmieniasz jakiś fragment kodu. Przykładowo dodajesz wzorzec projektowy w logice bo moduł się rozrasta. W żaden sposób nie zmieniłeś zachowania. Jedynie zamieniłeś kilka ifów na funkcję z innej klasy. I mimo, że całość mniej więcej poprawnie działa (bo np. uruchomiłeś kod i aplikacja działa jak działała) to nagle setki testów świecą się ostrym, czerwonym kolorem. Bo zmieniłeś implementację.
+
+
+I to jest poważny problem. Moment kiedy testy uniemożliwiają wprowadzanie jakiegokolwiek ulepszenia w kodzie i ruszenie tej twardej konstrukcji chociażby o milimetr jest bardzo smutnym momentem. Bo stajemy przed ścianą testów, której naprawa zajmie przynajmniej kilkanaście godzin. Tylko dlatego, że wewnętrzna implementacja się zmieniła bo dostosowała się do nowych wymagań. Taki moment potrafi bardzo mocno zniechęcić do pisania testów. Bo być może raz czy dwa poprawimy te testy. Ale potem albo przestaniemy myśleć o jakichkolwiek usprawnieniach albo wyłączymy w ogóle uruchamianie testów.
+
+
+Tylko dlatego, że ktoś postanowił, że będzie testował czy w trakcie wykonywania zadania jakaś klasa w środku uruchomiła konkretną funkcję dokładnie raz. Nieważne czy wynik się nie zmienił. Ważne, że zmieniła się funkcja, której pod spodem używamy. I niech Cię ręka uschnie jak będziesz chciał wprowadzić tam jakąś zmianę i wywołać inną funkcję, którą wyciągnąłeś do osobnej jednostki!
+
+
+A testy powinny dawać nam odpowiedź na pytanie czy dla tych samych danych wynik nadal jest ten sam jak poprzedni. A że tym razem kod osiągnął to w inny sposób? Nie ma znaczenia.
+
+
+4. Testy frameworka do testowania
+Mówi się, że biblioteki do testowania to najlepiej przetestowany kod na świecie. Bo chcąc wydzielić jak najmniejsze fragmenty kodu, który testujemy możemy dojść do momentu kiedy zamockowaliśmy już wszystko i tak naprawdę sprawdzamy czy biblioteka do mocków zadziałała i dała nam jakiś obiet, a biblioteka do testów potrafiła wykonać asercję.
+
+
+Spotykam się nieraz na rozmowach z kandydatami z twierdzeniem, że jednostką w teście jednostkowym jest pojedyncza funkcja. I jeżeli tak do tego podejdziemy to może się okazać, że w testach jedyne co robimy to sprawdzamy wynik funkcji, która jedynie wywołała mocki i zwróciła dane, które sami ustawiliśmy przed momentem. Bo żaden obiekt, którego użyła nie pochodził z jej „naturalnego środowiska”. To tak jakby testować silnik podłączając do kolektora wydechowego zamiast bloku silnika wytwornicę dymu. Na wyjściu mamy wynik. Ale czy wynika z niego, że silnik działa? Niekoniecznie.
+
+
+Problem wynika wg mnie z tego, że nadal nie rozumiemy, że jednostka to nie jedna funkcja czy klasa. Jednostka to jedna, wyizolowana funkcjonalność. Ale ta funkcjonalność to może być kilka powiązanych klas. Chociażby w momencie kiedy rozwiązanie korzysta z jakiegoś wzorca projektowego, który opiera się o wstrzykiwanie implementacji jakiegoś interfejsu, np. wzorzec strategii.
+
+
+5. Testy odporne na błędy
+Najgorsza rzecz na jaką można trafić kiedy przychodzimy do czyjegoś projektu albo zabieramy się za większy refactoring części, której nie znaliśmy wcześniej za dobrze. Chodzi o testy, które są praktycznie zawsze zielone. Po części wynika to z poprzedniego punktu. Ale też związane jest z bardzo nieprzemyślanym zestawem danych testowych.
+
+
+Bardzo łatwo o takie testy w momencie kiedy mamy wiele ścieżek wykonania w funkcjach. Czyli kiedy po prostu mamy dużo ifów w kodzie. Bo jeżeli jakaś funkcja wewnątrz jest podzielona na pół bo ma wielki if, który wykona jedną bądź drugą połowę to wystarczy, że napiszemy testy tylko dla pierwszego przypadku. I nagle nawet całkowite przepisanie drugiej połówki na coś co zwraca zupełnie inne dane nadal daje pozytywny wynik testów – funkcja działa.
+
+
+Pomocą w uniknięciu tego problemu jest stosowanie testów mutacyjnych. Polegają one na tym, że testujemy czy losowe zmiany w kodzie, np. zmiana warunku w ifie wpłyną na testy. Jeżeli takie zmiany spowodują reakcję w testach to nasze testy są wartościowe. Jeżeli wylosowanie zupełnie innego kodu w funkcjach nadal daje zielone testy to zastanówmy się czy czas jaki poświęciliśmy na ich napisanie powinien być w ogóle wliczony w czas pracy. Bo ich wartość dla kogokolwiek jest zerowa.

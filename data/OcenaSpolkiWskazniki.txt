@@ -1,0 +1,226 @@
+﻿Po co? Czyli krótko o Inwestowaniu Wartościowym (bądźmy świadomi!)
+Artykuł ten jest związany z Inwestowaniem Wartościowym, którego ojcem jest właśnie Benjamin Graham. W dużym skrócie – to podejście do inwestowania polega na tym, że szukamy prawdziwej wartości spółki giełdowej i wybieramy najlepiej tą, której giełda nie docenia. Jak dobrze wiesz – notowania spółek na Giełdzie Papierów Wartościowych niezwykle często związane są z humorami graczy giełdowych, czy też są efektem ich sztucznych spekulacji, dzięki czemu kurs spółki może zostać wywindowany do niebywałych rozmiarów – co nie będzie miało żadnego związku z prawdziwą działalnością spółki.
+
+
+
+
+Benjamin Graham radzi: Dokładnie badaj solidność firmy!
+Może być jednak również na odwrót – spółki mogą być nieco zapomniane, niedocenione przez inwestorów, mogą nie być „na topie”, przez co cena akcji (kurs) będzie niska – mimo, że firma może mieć kompetentny zarząd, świetnie utrzymaną dyscyplinę finansową, konkretny plan rozwoju i oddanych pracowników.
+
+
+Naszym zadaniem jest właśnie znaleźć taką spółkę, a następnie kupić jej udziały, a potem cierpliwie patrzeć jak po długim czasie inwestorzy zaczną doceniać firmę, a zasiane przez nas ziarno zacznie rosnąć przynosząc nam wspaniałe owoce;-)
+
+
+UWAGA!
+
+
+Bardzo ważna rzecz – w inwestowaniu wartościowym odrzucamy kompletnie spekulowanie – czyli agresywną krótkoterminową grę, polegającą na zakupie akcji i chęci sprzedaży bardzo szybko – na przykład tego samego dnia, tygodnia, czy miesiąca. To są spekulacje, my zaś uczymy się jak inwestować. Opierając się na Inwestowaniu Wartościowym Benjamina Grahama wolimy prześwietlić dokładnie firmę, poznać ją od podszewki i kupić z myślą, że w perspektywie lat się wzbogacimy.
+
+
+Czas dzisiaj poznać kilka narzędzi, które pomogą wycenić, czy spółka jest godna zainteresowania. Narzędzia te nazywane są wskaźnikami.
+
+
+Wskaźniki to takie stosunki odpowiednich współczynników związanych z firmą (na przykład zysk firmy, albo jej cena), które dają nam pewien obraz konkretnych obszarów działalności firmy.
+
+
+Żeby było jasne – to moja osobista definicja, nie znajdziesz jej w słowniku;-)
+
+
+Bierzmy się do dzieła! Poznajmy kilka podstawowych, najpopularniejszych wskaźników, sposoby ich obliczania oraz inne przydatne informacje z nimi związane.
+
+
+Zysk na akcję (Z/A)
+Zysk na akcję to jeden z dwóch najpopularniejszych wskaźników. Pozwala nam stwierdzić, jaki zysk „przypada nam w udziale”. Pamiętajmy, że zakupując akcje spółki, stajemy się jej właścicielami!
+
+
+Co będzie nam potrzebne:
+
+
+Zysk spółki z danego okresu (na przykład z konkretnego roku)
+liczba akcji
+Wskaźnik obliczamy bardzo prosto.
+
+
+Wskaźnik = zysk spółki z danego okresu / liczba akcji
+
+
+Co nam to mówi?
+
+
+Tutaj sprawa jest oczywista – im wyższy wynik, tym dla nas lepiej. To chyba dość jasne – im więcej zysku przypada na jedną akcję, tym fajniej;-).
+
+
+Skąd wziąć dane?
+
+
+
+
+Pamiętaj, że twój cel to handlować dobrze, a nie często – tą maksymę Pana Eldera powinniśmy wziąć sobie do serca.
+Liczbę akcji można znaleźć na portalach finansowych, które przechowują dane o spółkach giełdowych. Na przykład na portalu Bankier – aby zobaczyć jak to wygląda w przypadku spółki FON, zajrzyj tu.
+
+
+Zysk spółki można znaleźć na przynajmniej dwa sposoby. Pierwszy to u źródła – znajdź sprawozdanie finansowe spółki, a następnie spróbuj odnaleźć pozycję, która mówi o zysku firmy (ważne, żeby pamiętać o sprawozdaniu na koniec danego roku, a nie kwartału). Inny sposób to przegrzebanie informacji prasowych. Polecam jednak czytanie sprawozdań – warto nabyć tą umiejętność, a odnalezienie zysku w tych papierach to bardzo dobry wstęp.
+
+
+Cena na zysk (C/Z)
+To drugi najpopularniejszy wskaźnik. W książce „Inteligentny Inwestor” autorstwa Benjamina Grahama (którą serdecznie Ci polecam) jest właściwie nieodłącznym towarzyszem czytelnika.
+
+
+Co nam będzie potrzebne?
+
+
+Cena akcji – czyli inaczej kurs. Należy wziąć z momentu jaki nas interesuje – z końca roku, lub z chwili obecnej.
+
+
+Zysk na akcję – obliczony w poprzednim wskaźniku.
+
+
+Również i tutaj wskaźnik obliczamy bardzo prosto.
+
+
+Wskaźnik = Kurs spółki / zysk w przeliczeniu na akcję
+
+
+Co nam to mówi?
+
+
+Obliczenie tego wskaźnika powinno być prawdopodobnie jedną z pierwszych rzeczy, jakie zrobimy. Jest jedną z podstawowych potencjalnych lampek alarmowych w aspekcie tego, czy spółka nie jest dla nas zbyt droga (czyli czy jej cena na giełdzie nie jest zbyt wysoka względem prawdziwej wartości).
+
+
+Oczywiście Im mniejszy wynik tym dla nas lepiej. Jeśli okazałoby się na przykład, że wynik wynosi 1 – znaczyłoby to prawdopodobnie, że natrafiliśmy na żyłę złota, której nikt jeszcze nie odkrył.
+
+
+Benjamin Graham uczy, że akceptowalna wartość tego wskaźnika do maksymalnie 15 – najlepiej około 10 (znaczy to, że cena akcji jest 10-krotnie wyższa, niż zysk jaki firma wypracowała na akcję). Oczywiście jest to pewne uogólnienie rynku (w dodatku amerykańskiego, w dodatku z ubiegłego wieku) i im lepiej znasz konkretną branżę, tym lepiej możesz ten wskaźnik dostosować do swoich potrzeb.
+
+
+Skąd wziąć dane?
+
+
+Zysk na akcję – obliczony w poprzednim wskaźniku. Polecam branie zysku ze sprawozdań spółki;-)
+
+
+Cena akcji (kurs spółki) – można wziąć na dowolnym portalu finansowym, który publikuje notowania spółek WIG. Polecam osobiście portal parkiet.com. Wybieramy „notowania ciągłe” i mamy całą listę spółek, które mogą być w zasięgu naszego zainteresowania. Dostępne oczywiście również wykresy historyczne;-).
+
+
+Jaki okres brać pod uwagę? To bardzo ważne pytanie jest często podstawowym problemem. Graham zaleca, aby brać zyski z ostatnich 3 – 5 lat i uśredniać. W polskich realiach (nasz rynek jest dużo młodszy) jestem zdania, że 3 lata są zdecydowanie reprezentatywną liczbą.
+
+
+W tym miejscu z całego serca chciałbym Cię zaprosić do mojego sklepiku – możesz tam znaleźć kubki, które będą przypominać Ci o zasadach Inwestowania Wartościowego;-) Dodatkowo, przy okazji wesprzesz działalność Bloga Republikańskiego. Jeśli uważasz, że warto – nie krępuj się i kliknij na zdjęciu;-)
+
+
+
+
+Dywidenda na akcję (D/A)
+Dywidenda to bardzo szeroki temat, który nadaje się nie tylko na osobny artykuł (z pewnością takowy powstanie na Blogu Republikańskim;-)), ale i na całą pracę dyplomową. Ty jednak z pewnością będziesz mi wdzięczny za mocno skróconą lekcję.
+
+
+Co będzie nam potrzebne:
+
+
+Liczba akcji
+Wysokość dywidendy w konkretnym roku
+Wskaźnik oczywiście obliczamy bardzo prosto.
+
+
+Wskaźnik = wysokość dywidendy w danym roku / liczba akcji (zwykłych)
+
+
+Co nam to mówi?
+
+
+Dywidendy to pieniądze, które zarząd zdecydował się przeznaczyć dla akcjonariuszy. W końcu nie bez powodu kupujemy spółki i możemy oczekiwać, że część chwały spłynie na nas w postaci złotówek;-).
+
+
+Im wyższy wynik wskaźnika tym lepiej. Należy oczywiście być ostrożnym – jeśli spółka kolejny rok z rzędu wykazuje straty, a zarząd decyduje się przeznaczać olbrzymie środki na dywidendy, należy się katapultować z tego tonącego statku (oczywiście zabierając wcześniej dywidendę;-) ). Niemniej jednak dojrzałe rynki charakteryzują się wysokim wskaźnikiem dywidend – zaawansowani inwestorzy są w stanie żyć właśnie dzięki nim.
+
+
+Skąd wziąć dane?
+
+
+Liczbę akcji można znaleźć na portalach finansowych, które przechowują dane o spółkach giełdowych. Na przykład na portalu Bankier – aby zobaczyć jak to wygląda w przypadku spółki FON, zajrzyj tu.
+Wysokość dywidendy można wyczytać z informacji prasowych. Powinna być też podana na stronie internetowej spółki. Prawdę mówiąc zwykle wtedy podawane są również informacje odnośnie właśnie dywidendy na akcję, także liczenie mamy z głowy.
+UWAGA, jesteś nowy? Przeczytaj to!
+Bardzo ważna sprawa. Znajdujesz się na Blogu Republikańskim – miejscu, którego misją jest budowa społeczeństwa obywatelskiego. Społeczeństwo zawsze zaczyna się od Ciebie. Jeśli interesuje Cię zdobywanie wiedzy i świadomości, która pomoże stać się dojrzałym obywatelem – zapisz się do naszego newslettera. Zostańmy w kontakcie bez pośredników w postaci mediów społecznościowych;-)
+
+
+Zostań też naszym subskrybentem na youtube. Kliknij tutaj i… poznaj naszą inną stronę.
+
+
+Wartość Księgowa na akcję (WK/A)
+Tu mamy do czynienia już ze zdecydowanie bardziej zaawansowanym wskaźnikiem, który jest jednak niezwykle istotny w aspekcie naszego stylu inwestowania (Inwestowania Wartościowego).
+
+
+Co będzie nam potrzebne:
+
+
+Liczba akcji
+Wartość Księgowa w konkretnym roku
+Samo obliczenie wskaźnika to oczywiście nie jest matematyka wyższa.
+
+
+Wskaźnik = Wartość Księgowa / liczba akcji (zwykłych)
+
+
+Co nam to mówi?
+
+
+Mówi nam to – można by rzec – fundamentalnie dużo. Daje podstawowe informacje, które są jednak bardzo dużą częścią tego co powinniśmy wiedzieć. Wartość Księgowa bowiem, to realna wartość spółki. Na chwilę zapomnij o wycenianiu przez giełdę – Wartość Księgową ma każda spółka, niezależnie od tego czy jest notowana na GPW. Ba! Niezależnie od tego czy jest spółką akcyjną.
+
+
+Gdy już mamy Wartość Księgową, dzielimy ją przez liczbę akcji. Dzięki temu możemy sprawdzić ile powinna w tym momencie być warta jedna akcja. Im wyższy wynik wskaźnika tym lepiej.
+
+
+Skąd wziąć dane?
+
+
+Liczbę akcji można znaleźć na portalach finansowych, które przechowują dane o spółkach giełdowych. Na przykład na portalu Bankier – aby zobaczyć jak to wygląda w przypadku spółki FON, zajrzyj tu.
+Wartość Księgową – można tradycyjnie wyczytać ze sprawozdania finansowego, które powinieneś znaleźć na stronie internetowej firmy (lub wpisując w wyszukiwarkę internetową „[Nazwa firmy] sprawozdanie rok 20XX”). UWAGA! Wartość Księgowa to aktywa firmy – dług firmy. Tak więc jeśli firma deklaruje 5 mln zł aktywów, oraz 1 mln zł długu, jej Wartość Księgowa wynosi 4 mln zł (5 mln – 1 mln).
+
+
+Benjamin Graham radzi: Zabezpieczaj się przed stratami!
+Cena na Wartość Księgową (C/WK)
+To ciąg dalszy poprzedniego wskaźnika, który tutaj wykorzystujemy. Tym razem – podobnie jak w C/Z – mamy konkretne zalecenia związane z Inwestowaniem Wartościowym.
+
+
+Co będzie nam potrzebne:
+
+
+Cena akcji – czyli inaczej kurs. Należy wziąć z momentu jaki nas interesuje – z końca roku, lub z chwili obecnej.
+Wartość Księgowa/akcję – Patrz punkt poprzedni
+Samo obliczenie wskaźnika to – tradycyjnie już – nic trudnego.
+
+
+Wskaźnik = Cena akcji / (Wartość Księgowa na akcję)
+
+
+Co nam to mówi?
+
+
+To wskaźnik, który jest dla nas niezwykle przydatny, ponieważ mówi, czy firma jest przez Giełdę niedoceniona. Sprawa ma się nadzwyczaj prosto. Jeśli wynik jest mniejszy niż 1 – spółka jest niedoceniona. Oznacza to, że na giełdzie można ją kupić za cenę mniejszą, niż jest warta obecnie. Jeśli wynik jest większy niż 3 – spółka jest wyceniona zbyt wysoko. Prawdopodobnie w skutek spekulacji i mody na daną konkretną spółkę.
+
+
+Czemu poniżej 1 spółka jest tak bardzo łakomym kąskiem? Teoretycznie jeśli dzień po zakupie akcji firma by zbankrutowała – ty i tak zyskasz na inwestycji. W praktyce firma raczej się dalej rozwija.
+
+
+Skąd wziąć dane?
+
+
+Cena akcji (kurs spółki) – można wziąć na dowolnym portalu finansowym, który publikuje notowania spółek WIG. Polecam osobiście portal parkiet.com. Wybieramy „notowania ciągłe” i mamy całą listę spółek, które mogą być w zasięgu naszego zainteresowania. Dostępne oczywiście również wykresy historyczne;-).
+Wartość Księgową / akcję – całość została omówiona przy poprzednim wskaźniku (WK/A).
+Uwaga! Przy określaniu wartości księgowej należy być bardzo ostrożnym, ponieważ firmy – wykorzystując „kreatywną księgowość” – często zmieniają deklarowane aktywa. Jest to jednak temat na zupełnie inny artykuł. Zasada jednak jest jasna – im prostsze i przejrzyste sprawozdanie, tym lepiej.
+
+
+A teraz – do dzieła!
+Mam nadzieje, że artykuł podobał Ci się i był dla Ciebie wartościowy. Na nic jednak się zda, jeśli nie siądziesz sam (lub sama) i nie ruszysz do działania. Pamiętaj – obliczenie wskaźników nie kosztuje Cię żadnych pieniędzy, wyciąganie wniosków i weryfikowanie ich też nie kosztuje pieniędzy. Kosztuje Cię jednak z pewnością więcej wysiłku, niż przeglądanie Facebooka. Jeśli masz jakikolwiek problem – po prostu napisz, chętnie siądę do tego razem z Tobą;-)
+
+
+Powodzenia!
+
+
+Ja nazywam się Marek Czuma, a to jest Blog Republikański
+
+
+Piszę do Ciebie Prosto z Łodzi
+
+
+Mam jeszcze jedną prośbę – podaj ten artykuł dalej. Polub na facebooku, udostępnij, czy po prostu prześlij znajomemu. Razem zwiększajmy naszą finansową świadomość i wprowadzajmy do tego świata trochę zdrowego rozsądku;-) Zapraszam do zostawienia maila – zero spamu, 100% dobrych treści.

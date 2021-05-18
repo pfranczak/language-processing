@@ -1,0 +1,46 @@
+﻿Spór o skuteczność analizy technicznej toczy się od dawna i wciąż nie ma jasnego rozstrzygnięcia. Przeciwnicy analizy technicznej zarzucają jej zbytnią uznaniowość, a także powierzchowność odczytywania wykresów i układów cenowych. Z drugiej strony wśród inwestorów indywidualnych wydaje się ona najpopularniejszą metodą prognozującą, ponieważ jest (pozornie) łatwa do zaaplikowania. Przekonajmy się, jak to jest naprawdę z tą analizą techniczną.
+
+
+W artykule:
+
+
+Przyjrzyjmy się uważnie sytuacji przedstawionej na poniższym wykresie. Co możemy o niej powiedzieć, na podstawie najbardziej popularnego narzędzia analizy technicznej?
+
+
+Analiza techniczna wykres
+Na rynku mamy do czynienia z trendem wzrostowym. Notowania przebiegają w ramach dość regularnego kanału wzrostowego. Po wyznaczonych ostatnio maksimach rozpoczęła się faza korekty, nie ma jednak sygnałów, aby mówić o trwałej zmianie trendu. Oscylator stochastyczny potwierdza kolejne osiągane ekstrema, a skrajne wartości wskazane przez wstęgi Bollingera dość regularnie pokrywają się z krótkoterminowymi momentami zwrotnymi. W tej sytuacji wydaje się, że możemy oczekiwać dalszych wzrostów.
+
+
+Oczywiście nie każdy musi zgodzić się z tak prostą interpretacją, ale w końcu na tym polega analiza techniczna – to raczej sztuka, w ramach której każdy może mieć swoje zdanie.
+
+
+Na czym polega podstawowy problem dotyczący tak opracowanej analizy technicznej? Otóż rynek, który analizowaliśmy, tak naprawdę nie istnieje. Dane, które widzimy, zostały wygenerowane jako szereg liczb losowych w arkuszu kalkulacyjnym. Następnie po ujęciu w formacie „Cena otwarcia/Cena zamknięcia/Maksimum/Minimum” zostały zaimportowane do platformy MetaTrader i tam powstał wykres, który oglądamy – każdy może zrobić to samo. Innymi słowy, to, na co patrzymy, jest graficzną reprezentacją „rzutu monetą”.
+
+
+Z pustego w próżne: błądzenie losowe a zaufanie do analizy technicznej
+Nasze zaufanie do przeprowadzanej analizy technicznej opieramy bardzo często na tym, jak wizualnie odbieramy przebieg notowań na wykresie cenowym. Zakładamy, że jeśli dana formacja jest tak charakterystyczna (jak na przykład formacja głowy i ramion czy kanał trendu), to nie może być to dzieło przypadku. Otóż – może. To, że dane są czysto losowe, wcale nie oznacza, że w formie graficznej będą wyglądać jak wykres EKG. Wynika to stąd, iż każda nowa obserwacja opiera się na poprzedniej, zmodyfikowanej o nowe dane. Bardziej formalnie:
+
+
+dzisiejsza cena = wczorajsza cena + rzut monetą
+
+
+Taki proces określa się w statystyce błądzeniem losowym, a na wykresie będzie łudząco przypominać to, co z całą powagą analizujemy za pomocą wskaźników technicznych, formacji czy teorii fal Elliotta. W tej sytuacji trudno jednak winić analizę techniczną za to, że uzyskane przez nią rezultaty są czysto losowe. To po prostu my sami nie zdajemy sobie sprawy, co analizujemy. Faktyczne rynkowe zależności czy czysty przypadek? A może jedno i drugie?
+
+
+Zmiany cen: losowe oraz dyktowane fundamentalną zmianą rynku
+Informacje, które napływają na rynek w ciągu dnia, są natychmiast dyskontowane, a zmiany cen w ogromnej większości podlegają czysto losowym wahaniom podyktowanym przez kolejne transakcje uczestników rynku. W perspektywie czasowej 5- czy 15-minutowej nie ma praktycznie możliwości, aby odróżnić zmiany cen wynikające z czynników losowych od tych, które mogą być podyktowane przez fundamentalną zmianę sytuacji na rynku. Jeżeli podstawą dla analizy technicznej są dane, których charakter jest czysto losowy, to wygenerowane na ich podstawie sygnały transakcyjne i wyniki również będą zupełnie przypadkowe. Ze względu na koszty transakcji efektem takiego procesu prędzej czy później będzie sumaryczna strata. Oznacza to pośrednio także, iż stanowiąca obiekt zazdrości wielu inwestorów postać zawodowego day tradera w realnym świecie nie istnieje – nie sposób jest systematycznie wygrywać w grze o tak dużym udziale czystego przypadku.
+
+
+Analiza techniczna sprawdza się na rynkach z realnymi trendami fundamentalnymi
+W długim horyzoncie czasowym analiza techniczna sprawdzi się tylko tam, gdzie występują realne trendy fundamentalne. Pamiętajmy, iż rynki finansowe nie działają w próżni – ceny odzwierciedlają wartości istniejących w gospodarce aktywów, takich jak złoto, waluty czy firmy, których produkty codziennie kupujemy. Ich wartość jest w długim terminie uzależniona od takich zjawisk, jak cykl gospodarczy czy polityka monetarna. Te z kolei podlegają długofalowym realnym trendom, które charakteryzuje znaczna inercja – widać to nawet w takich sformułowaniach językowych, jak rozpędzona gospodarka czy restrykcyjne nastawienie banku centralnego. Im bardziej długoterminowy jest wykres, który analizujemy, tym większy będzie udział realnych zjawisk gospodarczych w procesie kształtowania się kursów, a mniejszy czystego przypadku, co oznacza, iż obraz rynku, jaki wskaże analiza techniczna, będzie bardziej zbliżony do nadchodzącej rzeczywistości.
+
+
+Nikt tak naprawdę nie mierzy osiąganych wyników
+Decyzje, jakie podejmujemy, działając na rynku, często podyktowane są emocjami, sytuacją na rachunku inwestycyjnym (np. rosnąca strata), a także naszą spontaniczną reakcją na bieżące wydarzenia rynkowe. Jeżeli analiza techniczna stanowi tylko jeden z wielu elementów naszego warsztatu inwestycyjnego, to trudno stwierdzić, za które z naszych decyzji i w jakim stopniu odpowiada. Jeżeli korzystamy z większej grupy narzędzi lub wskaźników technicznych, opierając się przy tym wyłącznie na intuicji, to trudno nam będzie z perspektywy czasu ocenić, który wskaźnik i w jakim stopniu wpłynął na wynik tej czy innej transakcji. Jeżeli nie jesteśmy w stanie zmierzyć, na ile skuteczne są narzędzia, z których korzystamy, pozbawiamy się możliwości systematycznej poprawy tak osiąganych rezultatów.
+
+
+Na rynku szanse ma tylko ten, kto myśli i działa jak… komputer
+Czyli systematycznie, regularnie i beznamiętnie. Dotyczy to nie tyle sposobu, w jaki podejmujemy decyzje, ale tego, jak się do niej przygotowujemy – jak wybieramy, testujemy i konfigurujemy narzędzia, na podstawie których później działamy. To właśnie taka nieludzka systematyczność i regularność odróżnia działającego spontanicznie inwestora od komputera. Maszyna daje możliwość, aby każde stosowane narzędzie, zanim zostanie użyte, zostało wcześniej wielokrotnie sprawdzone – mówimy tu o tysiącach zbliżonych do siebie sytuacji rynkowych, na podstawie których oceniane jest dane narzędzie i strategia inwestycyjna. Z tych wyników wyłania się też odpowiedź, czy dane, na których opiera się analiza techniczna, zawierają w sobie realne zależności rynkowe, czy też dominuje nad nimi czysty przypadek.
+
+
+Dlaczego w ten sposób traderzy nie sprawdzają narzędzi czy metod, z których korzystają? Często na przeszkodzie stoi bariera techniczna – nie wiedzą, jak to zrobić, nie umieją myśleć tak jak komputer ani tym bardziej mówić jego językiem. Książka „Analiza techniczna w praktyce” powstała właśnie po to, aby tę barierę przełamać – bez umiejętności programowania i bez patetycznych słów o tym, jak będziemy zarabiać, korzystając z tej czy innej metody. Zamiast tego uzyskujemy nowe spojrzenie na rynek i strategie, z których na co dzień korzystamy – spojrzenie na miarę XXI wieku i technologii, która nas otacza.
