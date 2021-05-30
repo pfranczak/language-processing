@@ -114,9 +114,50 @@ dtmTfIdf2_16 <- DocumentTermMatrix(
   )
 )
 
+tdmTfIdfBounds2_16 <- TermDocumentMatrix(
+  corpus,
+  control = list(
+    weighting = weightTfIdf,
+    bounds = list(
+      global = c(2,16)
+    )
+  )
+)
+
+tdmTfIdfBounds1_2 <- TermDocumentMatrix(
+  corpus,
+  control = list(
+    weighting = weightTfIdf,
+    bounds = list(
+      global = c(1,2)
+    )
+  )
+)
+
+tdmTfIdfBounds19_20 <- TermDocumentMatrix(
+  corpus,
+  control = list(
+    weighting = weightTfIdf,
+    bounds = list(
+      global = c(1,2)
+    )
+  )
+)
+
+
 dtmTfIdf2_16Matrix <- as.matrix(dtmTfIdf2_16)
 
 dtmBinAll4_8Matrix <- as.matrix(dtmBinAll4_8)
+
+tdmTfIdfBounds2_16Matrix <- as.matrix(tdmTfIdfBounds2_16)
+
+tdmTfIdfBounds1_2Matrix <- as.matrix(tdmTfIdfBounds1_2)
+
+tdmTfIdfBounds19_20Matrix <- as.matrix(tdmTfIdfBounds19_20)
+
+
+
+# Analiza PCA poszczególnych macierzy
 
 # Funkcja służąca do wykonywania analizy pca oraz rysowania jej wyników
 # Wykres pojawia się w prawej dolne części interfejsu R Studio
@@ -153,13 +194,121 @@ generate_pca_chart_for_matrix <- function(matrix) {
   )
 }
 
-# Analiza PCA poszczególnych macierzy
 # Wykresy generują się jeden po drugim
 generate_pca_chart_for_matrix(matrix = dtmBinAll4_8)
 generate_pca_chart_for_matrix(matrix = dtmTfAll)
 generate_pca_chart_for_matrix(matrix = dtmTfIdf19_20)
 
-#analiza ukrytej alokacji Dirichlet'a
+
+
+#Dekompozycja według wartości osobliwych
+
+generate_decomposition_plots_for_matrix <- function(matrix) {
+  lsa <- lsa(matrix)
+  
+  #przygotowanie danych do wykresu
+  coordDocs <- lsa$dk%*%diag(lsa$sk)
+  coordTerms <- lsa$tk%*%diag(lsa$sk)
+  termsImportance <- diag(lsa$tk%*%diag(lsa$sk)%*%t(diag(lsa$sk))%*%t(lsa$tk))
+  importantTerms <- names(tail(sort(termsImportance),30))
+  coordImportantTerms <- coordTerms[importantTerms,]
+  legend <- paste(paste("d", 1:length(rownames(coordDocs)),sep = ""), rownames(coordDocs),sep = " => ")
+  x1 <- coordDocs[,1]
+  y1 <- coordDocs[,2]
+  x2 <- coordImportantTerms[,1]
+  y2 <- coordImportantTerms[,2]
+  options(scipen = 5)
+  
+  #eksport wykresu do pliku .png
+  plotFile <- paste(
+    outputDir,
+    "lsa.png",
+    sep = "/"
+  )
+  
+  png(filename = plotFile)
+  dev.new(width =1000, height = 1000, unit = "px")
+  
+  #wykres dokumentów i słów w przestrzeni dwuwymiarowej
+  plot(
+    x1,
+    y1, 
+    col = "purple",
+    main = "Analiza ukrytych wymiarów semantycznych",
+    xlab = "SD1",
+    ylab = "SD2",
+    xlim = c(-0.1,0),
+    ylim = c(-0.1,0.1),
+    pch = 18
+  )
+  text(
+    x1,
+    y1,
+    paste("d", 1:length(rownames(coordDocs)),sep = ""),
+    col = "purple",
+    pos = 4,
+    cex = 0.8
+  )
+  points(
+    x2,
+    y2, 
+    col = "purple4",
+    pch = 16
+  )
+  text(
+    x2,
+    y2,
+    rownames(coordImportantTerms),
+    col = "purple4",
+    pos = 2,
+    cex = 0.8
+  )
+  legend(
+    "bottomleft",
+    #"right",
+    legend,
+    cex = 0.6,
+    text.col = "purple"
+  )
+}
+
+generate_decomposition_plots_for_matrix(matrix = tdmTfIdfBounds2_16Matrix)
+generate_decomposition_plots_for_matrix(matrix = tdmTfIdfBounds1_2Matrix)
+generate_decomposition_plots_for_matrix(matrix = tdmTfIdfBounds19_20Matrix)
+
+
+
+# Analiza skupień
+
+clusterAnalysis <- function(nClusters) {
+  nDocs <- 20
+  distMatrix <- dist(dtmBinAll4_8Matrix, method = "cosine")
+  hclust <- hclust(distMatrix, method = "ward.D2")
+  par(mai = c(1,2,1,1))
+  plot(hclust)
+  barplot(hclust$height, names.arg = 19:1)
+  dendrogram <- as.dendrogram(hclust)
+  coloredDendrogram <- color_branches(dendrogram, k=nClusters)
+  par(mai = c(1,1,1,4))
+  plot(coloredDendrogram, horiz = T)
+  clusters <- cutree(hclust, k <- nClusters)
+  clustersMatrix <- matrix(0,nDocs,nClusters)
+  rownames(clustersMatrix) <- names(nClusters)
+  for (i in 1:nDocs) {
+    clustersMatrix[i, clusters[i]] <- 1
+  }
+  par(mai = c(1,1,1,1))
+  corrplot(clustersMatrix, tl.col = "black", cl.pos = "n")
+}
+
+clusterAnalysis(nClusters = 5)
+clusterAnalysis(nClusters = 4)
+clusterAnalysis(nClusters = 7)
+
+
+
+#Analiza ukrytej alokacji Dirichlet'a
+
 generate_topics_charts_for_matrix <- function(matrix, topicsNumber) {
   usedMatrix <- matrix
   lda <- LDA(
@@ -175,7 +324,7 @@ generate_topics_charts_for_matrix <- function(matrix, topicsNumber) {
   perplexity <- perplexity(lda, usedMatrix)
   results <- posterior(lda)
   par(mai = c(1,2,1,1))
-
+  
   for (i in 1:topicsNumber) {
     topic <- tail(sort(results$terms[1,]),length(corpus))
     barplot(
@@ -209,7 +358,10 @@ results <- generate_topics_charts_for_matrix(matrix = dtmTfAll, topicsNumber = 5
 
 generate_prop_charts_for_document(results = results, documentsLength = length(corpus))
 
+
+
 # Identyfikacja słów i fraz kluczowych
+
 generate_keywords_chart_for_matrix <- function(matrix, document) {
   usedMatrix <- matrix
   keywordsTf1 <- tail(sort(usedMatrix[1,]))
@@ -247,50 +399,8 @@ generate_keywords_charts <- function() {
     generate_keywords_chart_for_matrix(matrix = dtmTfAllMatrix, document = corpus[i])
   }
 }
-
 generate_keywords_charts()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# ANALIZA SKUPIEŃ
-
-# ilość dokumentów
-
-
-clusterAnalysis <- function(nClusters) {
-  nDocs <- 20
-  distMatrix <- dist(dtmBinAll4_8Matrix, method = "cosine")
-  hclust <- hclust(distMatrix, method = "ward.D2")
-  par(mai = c(1,2,1,1))
-  plot(hclust)
-  barplot(hclust$height, names.arg = 19:1)
-  dendrogram <- as.dendrogram(hclust)
-  coloredDendrogram <- color_branches(dendrogram, k=nClusters)
-  par(mai = c(1,1,1,4))
-  plot(coloredDendrogram, horiz = T)
-  clusters <- cutree(hclust, k <- nClusters)
-  clustersMatrix <- matrix(0,nDocs,nClusters)
-  rownames(clustersMatrix) <- names(nClusters)
-  for (i in 1:nDocs) {
-    clustersMatrix[i, clusters[i]] <- 1
-  }
-  par(mai = c(1,1,1,1))
-  corrplot(clustersMatrix, tl.col = "black", cl.pos = "n")
-}
-
-clusterAnalysis(nClusters = 5)
-clusterAnalysis(nClusters = 4)
-clusterAnalysis(nClusters = 7)
 
 
