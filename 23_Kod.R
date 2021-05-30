@@ -3,6 +3,7 @@ library(tm)
 library(hunspell)
 library(topicmodels)
 library(wordcloud)
+library(randomcoloR)
 
 setwd("./")
 
@@ -142,134 +143,63 @@ generate_pca_chart_for_matrix(matrix = dtmTfAll)
 generate_pca_chart_for_matrix(matrix = dtmTfIdf19_20)
 
 #analiza ukrytej alokacji Dirichlet'a
-nTerms <- dtmTfAll$ncol
-nTopics <- 5
-lda <- LDA(
-  dtmTfAll,
-  k = nTopics,
-  method = "Gibbs",
-  control = list(
-    burnin = 2000,
-    thin = 100,
-    iter = 3000
+generate_topics_charts_for_matrix <- function(matrix, topicsNumber) {
+  usedMatrix <- matrix
+  lda <- LDA(
+    usedMatrix,
+    k = topicsNumber,
+    method = "Gibbs",
+    control = list(
+      burnin = 2000,
+      thin = 100,
+      iter = 3000
+    )
   )
-)
-perplexity <- perplexity(lda, dtmTfAll)
-results <- posterior(lda)
+  perplexity <- perplexity(lda, usedMatrix)
+  results <- posterior(lda)
+  par(mai = c(1,2,1,1))
 
-par(mai = c(1,2,1,1))
-#prezentacja tematów
-topic1 <- tail(sort(results$terms[1,]),20)
-barplot(
-  topic1,
-  horiz = T,
-  las = 1,
-  main = "Temat 1",
-  xlab = "Prawdopodobieństwo",
-  col = "orange"
-)
-topic2 <- tail(sort(results$terms[2,]),20)
-barplot(
-  topic2,
-  horiz = T,
-  las = 1,
-  main = "Temat 2",
-  xlab = "Prawdopodobieństwo",
-  col = "violet"
-)
-topic3 <- tail(sort(results$terms[3,]),20)
-barplot(
-  topic3,
-  horiz = T,
-  las = 1,
-  main = "Temat 3",
-  xlab = "Prawdopodobieństwo",
-  col = "turquoise"
-)
-topic4 <- tail(sort(results$terms[4,]),20)
-barplot(
-  topic4,
-  horiz = T,
-  las = 1,
-  main = "Temat 4",
-  xlab = "Prawdopodobieństwo",
-  col = "darkseagreen"
-)
-topic5 <- tail(sort(results$terms[5,]),20)
-barplot(
-  topic5,
-  horiz = T,
-  las = 1,
-  main = "Temat 5",
-  xlab = "Prawdopodobieństwo",
-  col = "lightskyblue"
-)
-
-#prezentacja dokumentów
-document1 <- results$topics[1,]
-barplot(
-  rev(document1),
-  horiz = T,
-  las = 1,
-  main = rownames(results$topics)[1],
-  xlab = "Prawdopodobieństwo",
-  col = "darkseagreen"
-)
-document4 <- results$topics[4,]
-barplot(
-  rev(document4),
-  horiz = T,
-  las = 1,
-  main = rownames(results$topics)[4],
-  xlab = "Prawdopodobieństwo",
-  col = "orange"
-)
-document11 <- results$topics[11,]
-barplot(
-  rev(document11),
-  horiz = T,
-  las = 1,
-  main = rownames(results$topics)[11],
-  xlab = "Prawdopodobieństwo",
-  col = "turquoise"
-)
-document17 <- results$topics[17,]
-barplot(
-  rev(document17),
-  horiz = T,
-  las = 1,
-  main = rownames(results$topics)[17],
-  xlab = "Prawdopodobieństwo",
-  col = "violet"
-)
-
-# Identyfikacja słów i fraz kluczowych
-
-for (j in 1:20) {
-  keywordsTf1 <- tail(sort(dtmTfIdfAllMatrix[1,]))
-  rev(keywordsTf1)
+  for (i in 1:topicsNumber) {
+    topic <- tail(sort(results$terms[1,]),length(corpus))
+    barplot(
+      topic,
+      horiz = T,
+      las = 1,
+      main = paste("Temat ",i),
+      xlab = "Prawdopodobieństwo",
+      col = randomColor()
+    )
+  }
   
-  #waga TfIdf jako miara istotności słów
-  keywordsTfIdf1 <- tail(sort(dtmTfIdfAllMatrix[1,]))
-  rev(keywordsTfIdf1)
-  
-  #prawdopodobieństwo w LDA jako miara istorności słów
-  termsImportance1 <- c(results$topics[1,]%*%results$terms)
-  names(termsImportance1) <- colnames(results$terms)
-  keywordsLda1 <- tail(sort(termsImportance1))
-  rev(keywordsLda1)
-  
-  #chmura tagów
-  par(mai = c(0,0,0,0))
-  wordcloud(corpus[j], max.words = 150, color = brewer.pal(8,"PuOr"))
+  return(results)
 }
 
-for (j in 1:20) {
-  keywordsTf1 <- tail(sort(dtmTfAllMatrix[1,]))
+generate_prop_charts_for_document <- function(results, documentsLength) {
+  for (i in 1:documentsLength) {
+    document <- results$topics[i,]
+    barplot(
+      rev(document),
+      horiz = T,
+      las = 1,
+      main = rownames(results$topics)[i],
+      xlab = "Prawdopodobieństwo",
+      col = randomColor()
+    )
+  }
+}
+
+results <- generate_topics_charts_for_matrix(matrix = dtmTfAll, topicsNumber = 5)
+
+generate_prop_charts_for_document(results = results, documentsLength = length(corpus))
+
+# Identyfikacja słów i fraz kluczowych
+generate_keywords_chart_for_matrix <- function(matrix, document) {
+  usedMatrix <- matrix
+  keywordsTf1 <- tail(sort(usedMatrix[1,]))
   rev(keywordsTf1)
   
   #waga Tf jako miara istotności słów
-  keywordsTfIdf1 <- tail(sort(dtmTfAllMatrix[1,]))
+  keywordsTfIdf1 <- tail(sort(usedMatrix[1,]))
   rev(keywordsTfIdf1)
   
   #prawdopodobieństwo w LDA jako miara istorności słów
@@ -280,8 +210,27 @@ for (j in 1:20) {
   
   #chmura tagów
   par(mai = c(0,0,0,0))
-  wordcloud(corpus[j], max.words = 150, color = brewer.pal(8,"PuOr"))
+  wordcloud(document, max.words = 150, color = brewer.pal(8,"PuOr"))
 }
 
+generate_keywords_charts <- function() {
+  dtmTfIdfAll <- DocumentTermMatrix(
+    corpus,
+    control = list(
+      weighting = weightTfIdf
+    )
+  )
+  dtmTfIdfAllMatrix <- as.matrix(dtmTfIdfAll)
+  
+  dtmTfAll <- DocumentTermMatrix(corpus)
+  dtmTfAllMatrix <- as.matrix(dtmTfAll)
+  
+  for (i in 1:20) {
+    generate_keywords_chart_for_matrix(matrix = dtmTfIdfAllMatrix, document = corpus[i])
+    generate_keywords_chart_for_matrix(matrix = dtmTfAllMatrix, document = corpus[i])
+  }
+}
+
+generate_keywords_charts()
 
 
