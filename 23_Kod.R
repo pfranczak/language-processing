@@ -3,6 +3,10 @@ library(tm)
 library(hunspell)
 library(topicmodels)
 library(wordcloud)
+library(proxy)
+library(dendextend)
+library(corrplot)
+library(flexclust)
 
 setwd("./")
 
@@ -99,6 +103,19 @@ dtmTfIdf19_20 <- DocumentTermMatrix(
   )
 )
 
+dtmTfIdf2_16 <- DocumentTermMatrix(
+  corpus,
+  control = list(
+    weighting = weightTfIdf,
+    bounds = list(
+      global = c(2,16)
+    )
+  )
+)
+
+dtmTfIdf2_16Matrix <- as.matrix(dtmTfIdf2_16)
+
+dtmBinAll4_8Matrix <- as.matrix(dtmBinAll4_8)
 
 # Funkcja służąca do wykonywania analizy pca oraz rysowania jej wyników
 # Wykres pojawia się w prawej dolne części interfejsu R Studio
@@ -283,5 +300,48 @@ for (j in 1:20) {
   wordcloud(corpus[j], max.words = 150, color = brewer.pal(8,"PuOr"))
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ANALIZA SKUPIEŃ
+
+# ilość dokumentów
+
+
+clusterAnalysis <- function(nClusters) {
+  nDocs <- 20
+  distMatrix <- dist(dtmBinAll4_8Matrix, method = "cosine")
+  hclust <- hclust(distMatrix, method = "ward.D2")
+  par(mai = c(1,2,1,1))
+  plot(hclust)
+  barplot(hclust$height, names.arg = 19:1)
+  dendrogram <- as.dendrogram(hclust)
+  coloredDendrogram <- color_branches(dendrogram, k=nClusters)
+  par(mai = c(1,1,1,4))
+  plot(coloredDendrogram, horiz = T)
+  clusters <- cutree(hclust, k <- nClusters)
+  clustersMatrix <- matrix(0,nDocs,nClusters)
+  rownames(clustersMatrix) <- names(nClusters)
+  for (i in 1:nDocs) {
+    clustersMatrix[i, clusters[i]] <- 1
+  }
+  par(mai = c(1,1,1,1))
+  corrplot(clustersMatrix, tl.col = "black", cl.pos = "n")
+}
+
+clusterAnalysis(nClusters = 5)
+clusterAnalysis(nClusters = 4)
+clusterAnalysis(nClusters = 7)
 
 
